@@ -1,0 +1,22 @@
+# id: name of the sample
+# path: path is the main PacBio samples output path with "aligned","deepvariant", etc. directories
+samples:
+  - 
+    id: "HG002_minimal"
+    path: "data/minimal/HG002.minimal.GRCh38.mosdepth.summary.txt"
+  # - 
+  #   id: "HG003"
+  #   path: "data/hg002_trio/m84039_241002_000337_s3.GRCh38.mosdepth.summary.txt"
+  # - 
+  #   id: "HG004"
+  #   path: "data/hg002_trio/m84039_241002_000337_s3.GRCh38.mosdepth.summary.txt"
+
+# Directory to output the results to
+out_dir: "./output/"
+
+# Analysis to do (plots to make)
+mosdepth_statistics: TRUE # Converage, total bases mapped etc.
+length_vs_quality: TRUE
+aligned_bases: TRUE
+snvs_stats: TRUE
+sv_stats: TRUE
