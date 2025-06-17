@@ -1,0 +1,27 @@
+---
+title: "MPRAsnakeflow assignment QC report"
+page-layout: full
+format:
+  html:
+    code-fold: true
+    code-tools: true
+    embed-resources: true
+    anchor-sections: true
+    smooth-scroll: true
+    toc: true
+jupyter: python3
+---
+
+
+```{python}
+#| tags: [parameters]
+#| echo: false
+```
+
+```{python}
+#| echo: false
+# Imports
+# from IPython.display import display, Image, Markdown
+# import pandas as pd
+# import json
+```
