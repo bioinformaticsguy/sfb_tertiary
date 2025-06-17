@@ -1,5 +1,5 @@
 ---
-title: "MPRAsnakeflow assignment QC report"
+title: "DSD Case Report"
 page-layout: full
 format:
   html:
@@ -22,6 +22,17 @@ jupyter: python3
 #| echo: false
 # Imports
 # from IPython.display import display, Image, Markdown
-# import pandas as pd
+import pandas as pd
 # import json
+```
+
+
+# Genes Overlapping with DSD Gene Panel
+```{python}
+
+# Load your filtered DataFrame (if not already in memory)
+filtered_df = pd.read_csv("/mnt/c/Users/Ali/Documents/sfb_tertiary/output/filtered_genes/filtered_variants.csv")
+
+# Display as a table
+filtered_df
 ```

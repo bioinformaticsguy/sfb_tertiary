@@ -16,6 +16,8 @@ with open(gene_list_path, 'r') as f:
 # Filter rows where the 'gene' column contains any gene from the gene list
 filtered_df = df[df['gene'].isin(gene_list)]
 
+filtered_df.to_csv("output/filtered_genes/filtered_variants.csv", index=False)
+
 # Print the filtered rows
 print(filtered_df)
 
