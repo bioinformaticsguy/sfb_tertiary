@@ -80,5 +80,5 @@ plots$coverage_per_sample <- ggplot(mosdepth_summary,
     ggtitle("Coverage per sample across chromosomes")
 
 dir.create(path = out_dir)
-filename <- paste0(out_dir, "hg002_minimai.png")
+filename <- paste0(out_dir, "third_trio_156.png")
 ggsave(plot = plot_grid(plotlist = plots, ncol = 2), filename = filename, width = 10, height = 5)

@@ -2,14 +2,14 @@
 # path: path is the main PacBio samples output path with "aligned","deepvariant", etc. directories
 samples:
   - 
-    id: "HG002_minimal"
-    path: "data/minimal/HG002.minimal.GRCh38.mosdepth.summary.txt"
-  # - 
-  #   id: "HG003"
-  #   path: "data/hg002_trio/m84039_241002_000337_s3.GRCh38.mosdepth.summary.txt"
-  # - 
-  #   id: "HG004"
-  #   path: "data/hg002_trio/m84039_241002_000337_s3.GRCh38.mosdepth.summary.txt"
+    id: "S009-Patient-155"
+    path: "data/third_trio_156/S009_X47-24_WGS-Rv-0155.GRCh38.mosdepth.summary.txt"
+  - 
+    id: "S010-Mother-155"
+    path: "data/third_trio_156/S010_X48-24_WGS-Rv-0155.GRCh38.mosdepth.summary.txt"
+  - 
+    id: "S011-Father-156"
+    path: "data/third_trio_156/S011_X49-24_WGS-Rv-0156.GRCh38.mosdepth.summary.txt"
 
 # Directory to output the results to
 out_dir: "./output/"
