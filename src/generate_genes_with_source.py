@@ -1,20 +1,15 @@
 import pandas as pd
 import sys
 import os
-from glob import glob
 
-# Usage: python generate_genes_with_source.py directory_path
+# Usage: python generate_genes_with_source.py file1.txt file2.txt ...
 
-if len(sys.argv) != 2:
-    print("Usage: python generate_genes_with_source.py directory_path")
+if len(sys.argv) < 2:
+    print("Usage: python generate_genes_with_source.py file1.txt file2.txt ...")
     sys.exit(1)
 
-directory = sys.argv[1]
-
 all_genes = []
-# Get all .txt files in the directory
-for file in glob(os.path.join(directory, "*.txt")):
-    # Use the filename (without extension) as the source
+for file in sys.argv[1:]:
     source = os.path.splitext(os.path.basename(file))[0]
     with open(file) as f:
         content = f.read().strip()
