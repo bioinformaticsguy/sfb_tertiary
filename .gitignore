@@ -3,3 +3,4 @@
 /output
 *.html
 *.snakemake
+src/__pycache__
