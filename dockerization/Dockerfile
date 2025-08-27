@@ -1,36 +1,33 @@
-# Start from a lightweight Linux base
-FROM ubuntu:22.04
+# Use official Miniconda3 image
+FROM continuumio/miniconda3:latest
 
 # Set working directory
 WORKDIR /app
 
-# Install dependencies for conda
-RUN apt-get update && apt-get install -y \
-    wget \
-    vim \
-    bzip2 \
-    ca-certificates \
-    curl \
-    git \
-    && rm -rf /var/lib/apt/lists/*
-
-# Copy local file into image
+# Copy your conda environment file
 COPY app/quarto.yaml /app/
 
-# Download and install Miniconda
-RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /tmp/miniconda.sh \
-    && bash /tmp/miniconda.sh -b -p /opt/conda \
-    && rm /tmp/miniconda.sh
+# Ensure conda is available in non-login shells
+SHELL ["/bin/bash", "-c"]
 
-# Add conda to PATH
-ENV PATH=/opt/conda/bin:$PATH
+# Install basics first
+RUN apt-get update && apt-get install -y \
+    vim \
+    less \
+    && rm -rf /var/lib/apt/lists/*
 
-# Create a conda environment from a YAML (optional)
-# COPY environment.yml .
-# RUN conda env create -f environment.yml
+# Create conda environment from YAML file with explicit name
+RUN conda env create -f quarto.yaml -n quarto
 
-# Activate conda environment by default (optional)
-SHELL ["conda", "run", "-n", "base", "/bin/bash", "-c"]
+# Make RUN commands use the new environment:
+SHELL ["conda", "run", "-n", "quarto", "/bin/bash", "-c"]
 
-# Default command
-CMD ["bash"]
+# Activate the environment by default when container starts
+RUN echo "conda activate quarto" >> ~/.bashrc
+
+# Set the environment as default for subsequent RUN commands
+ENV CONDA_DEFAULT_ENV=quarto
+ENV PATH /opt/conda/envs/quarto/bin:$PATH
+
+# Default command - starts with the environment activated
+CMD ["conda", "run", "-n", "quarto", "bash"]
