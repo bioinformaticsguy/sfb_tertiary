@@ -1,33 +1,46 @@
-# Use official Miniconda3 image
-FROM continuumio/miniconda3:latest
+# Use official Ubuntu base image
+FROM ubuntu:22.04
 
 # Set working directory
 WORKDIR /app
 
-# Copy your conda environment file
-COPY app/quarto.yaml /app/
-
-# Ensure conda is available in non-login shells
+# Use bash for RUN commands
 SHELL ["/bin/bash", "-c"]
 
-# Install basics first
+# Install basics, Python 3.11, pip, and other required tools
 RUN apt-get update && apt-get install -y \
+    wget \
+    curl \
+    tar \
+    python3.11 \
+    python3.11-venv \
+    python3.11-distutils \
+    python3-pip \
+    git \
     vim \
     less \
     && rm -rf /var/lib/apt/lists/*
 
-# Create conda environment from YAML file with explicit name
-RUN conda env create -f quarto.yaml -n quarto
+# Upgrade pip
+RUN python3.11 -m pip install --upgrade pip
 
-# Make RUN commands use the new environment:
-SHELL ["conda", "run", "-n", "quarto", "/bin/bash", "-c"]
+# Install Pandas and Jupyter
+RUN python3.11 -m pip install pandas jupyter
 
-# Activate the environment by default when container starts
-RUN echo "conda activate quarto" >> ~/.bashrc
+# Download and install Quarto (latest version)
+RUN wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.34/quarto-1.7.34-linux-amd64.tar.gz -O /tmp/quarto.tar.gz
 
-# Set the environment as default for subsequent RUN commands
-ENV CONDA_DEFAULT_ENV=quarto
-ENV PATH /opt/conda/envs/quarto/bin:$PATH
 
-# Default command - starts with the environment activated
-CMD ["conda", "run", "-n", "quarto", "bash"]
+# Extract Quarto to /usr/local/quarto
+RUN mkdir -p /usr/local/quarto && \
+    tar -C /usr/local/quarto -xvzf /tmp/quarto.tar.gz --strip-components=1 && \
+    rm /tmp/quarto.tar.gz
+
+# Add Quarto to PATH
+ENV PATH="/usr/local/quarto/bin:${PATH}"
+
+# Verify installation
+RUN quarto --version
+
+# Default command
+CMD ["bash"]

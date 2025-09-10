@@ -1,3 +1,5 @@
+## How to run: snakemake --use-conda --cores 1
+
 rule all:
     input:
         "output/filtered_genes/filtered_variants.csv",
@@ -32,6 +34,8 @@ rule render_report:
         html="quarto_rep/report_gen.html"
     conda:
         "workflow/envs/quarto.yaml"
+    container:
+        "docker://bioinformaticsguy/my-quarto-image:latest"
     shell:
         """
         pwd
