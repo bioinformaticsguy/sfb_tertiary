@@ -1,0 +1,14 @@
+name: r_plots
+channels:
+  - conda-forge
+  - bioconda
+  - r
+dependencies:
+  - r-base=4.3
+  - r-dplyr
+  - r-ggplot2
+  - r-docopt
+  - r-yaml
+  - r-forcats
+  - r-ggrepel
+  - r-cowplot
