@@ -4,3 +4,5 @@
 *.html
 *.snakemake
 src/__pycache__
+.RData
+.Rhistory

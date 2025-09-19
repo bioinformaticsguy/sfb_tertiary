@@ -79,6 +79,12 @@ plots$coverage_per_sample <- ggplot(mosdepth_summary,
     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1), legend.position = "none") +
     ggtitle("Coverage per sample across chromosomes")
 
+if (!exists("plot_name")) {
+  plot_name <- "coverage_plot.png"
+}
+
+filename <- file.path(out_dir, plot_name)
+
+
 dir.create(path = out_dir)
-filename <- paste0(out_dir, "third_trio_156.png")
 ggsave(plot = plot_grid(plotlist = plots, ncol = 2), filename = filename, width = 10, height = 5)
