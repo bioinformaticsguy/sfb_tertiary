@@ -3,13 +3,13 @@
 
 rule all:
     input:
-        "output/plots/r_plots/third_trio_156.png"
+        "output/plots/r_plots/sixth_trio.png"
 
 rule plot_coverage:
     input:
         yaml_config="src/data_to_plot.yaml",
     output:
-        "output/plots/r_plots/third_trio_156.png"
+        "output/plots/r_plots/sixth_trio.png"
     conda:
         "envs/r_environment.yaml"
     container:
