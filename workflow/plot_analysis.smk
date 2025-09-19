@@ -11,6 +11,8 @@ rule plot_coverage:
         "output/plots/r_plots/third_trio_156.png"
     conda:
         "envs/r_environment.yaml"
+    container:
+        "docker://bioinformaticsguy/r-plotting:latest"
     shell:
         """
         mkdir -p output/plots/r_plots
