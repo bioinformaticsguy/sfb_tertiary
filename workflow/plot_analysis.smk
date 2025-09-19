@@ -1,4 +1,5 @@
 ## How to run: snakemake -s workflow/plot_analysis.smk --use-conda --cores 1
+## With DOcker: snakemake -s workflow/plot_analysis.smk --use-singularity --cores 1
 
 rule all:
     input:
