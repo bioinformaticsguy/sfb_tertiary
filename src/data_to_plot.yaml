@@ -3,13 +3,13 @@
 samples:
   - 
     id: "S021-Patient"
-    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S023/call-upstream-0-S021_X8325_WGSRv/call-mosdepth/work/SFB166S-S021_X83-25_WGS-Rv-0286.GRCh38.mosdepth.summary.txt"
+    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S021/out/mosdepth_summary/0/SFB166S-S021_X83-25_WGS-Rv-0286.GRCh38.mosdepth.summary.txt"
   - 
     id: "S022-Mother"
-    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S023/call-upstream-1-S022_X8425_WGSRv/call-mosdepth/work/SFB166S-S022_X84-25_WGS-Rv-0286.GRCh38.mosdepth.summary.txt"
+    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S021/out/mosdepth_summary/1/SFB166S-S022_X84-25_WGS-Rv-0286.GRCh38.mosdepth.summary.txt"
   - 
     id: "S023-Father"
-    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S023/call-upstream-2-S023_X8525_WGSRv/call-mosdepth/work/SFB166S-S023_X85-25_WGS-Rv-0286.GRCh38.mosdepth.summary.txt"
+    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S021/out/mosdepth_summary/2/SFB166S-S023_X85-25_WGS-Rv-0286.GRCh38.mosdepth.summary.txt"
 
 # Directory to output the results to
 out_dir: "./output/plots/r_plots/"
