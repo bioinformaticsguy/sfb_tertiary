@@ -2,6 +2,9 @@
 Main script to generate sample metrics CSV and Excel files
 """
 
+## Change the file paths in the config.py file before running this script. 
+## Three main things to adjust are the RESULTS_PATH, OUTPUT_DIR, and CSV_FILE_PATH variables.
+
 import os
 from config import *
 from curated_functions import *
