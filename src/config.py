@@ -5,7 +5,7 @@ Configuration file containing all variables and settings
 import os
 
 # File paths 
-OUTPUT_DIR = "/data/humangen_kircherlab/Users/hassan/sfb_tertiary/output/csv_files"
+OUTPUT_DIR = "/data/humangen_kircherlab/Users/hassan/repos/sfb_tertiary/output/csv_files"
 RESULTS_PATH = "/data/humangen_kircherlab/Users/hassan/run_rare/rare-disease-pipeline/outputs/sample_sheet_30_demultiplexed"
 CSV_FILE_PATH = "/data/humangen_kircherlab/Users/hassan/run_rare/rare-disease-pipeline/samplesheets/old_sample_sheets/sample_sheet_30_demultiplexed.csv"
 
