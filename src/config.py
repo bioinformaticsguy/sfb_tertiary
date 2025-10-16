@@ -6,8 +6,11 @@ import os
 
 # File paths 
 OUTPUT_DIR = "/data/humangen_kircherlab/Users/hassan/repos/sfb_tertiary/output/csv_files"
-RESULTS_PATH = "/data/humangen_kircherlab/Users/hassan/run_rare/rare-disease-pipeline/outputs/sample_sheet_30_demultiplexed"
+# RESULTS_PATH = "/data/humangen_kircherlab/Users/hassan/run_rare/rare-disease-pipeline/outputs/sample_sheet_30_demultiplexed"
+RESULTS_PATH = "/data/humangen_kircherlab/Users/hassan/rare_disease_outputs/013_thirty_one_samplesheet"
 CSV_FILE_PATH = "/data/humangen_kircherlab/Users/hassan/run_rare/rare-disease-pipeline/samplesheets/old_sample_sheets/sample_sheet_30_demultiplexed.csv"
+# CSV_FILE_PATH = "/data/humangen_kircherlab/Users/hassan/run_rare/rare-disease-pipeline/samplesheets/sample_sheet_30.csv"
+
 
 # Analysis parameters
 TARGET_COVERAGE = 24
