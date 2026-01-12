@@ -2,18 +2,18 @@
 # path: path is the main PacBio samples output path with "aligned","deepvariant", etc. directories
 samples:
   - 
-    id: "S021-Patient"
-    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S021/out/mosdepth_summary/0/SFB166S-S021_X83-25_WGS-Rv-0286.GRCh38.mosdepth.summary.txt"
+    id: "S013-Patient"
+    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S013/out/mosdepth_summary/0/S013_X91-24_WGS-Rv-0176.GRCh38.mosdepth.summary.txt"
   - 
-    id: "S022-Mother"
-    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S021/out/mosdepth_summary/1/SFB166S-S022_X84-25_WGS-Rv-0286.GRCh38.mosdepth.summary.txt"
+    id: "S014-Mother"
+    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S013/out/mosdepth_summary/1/S014_X92-24_WGS-Rv-0176.GRCh38.mosdepth.summary.txt"
   - 
-    id: "S023-Father"
-    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S021/out/mosdepth_summary/2/SFB166S-S023_X85-25_WGS-Rv-0286.GRCh38.mosdepth.summary.txt"
+    id: "S015-Father"
+    path: "/data/humangen_sfb1665_seqdata/long_read/processed_data/S013/out/mosdepth_summary/2/S015_X93-24_WGS-Rv-0176.GRCh38.mosdepth.summary.txt"
 
 # Directory to output the results to
 out_dir: "./output/plots/r_plots/"
-plot_name: "sixth_trio.png"
+plot_name: "S013-Patient.png"
 
 # Analysis to do (plots to make)
 mosdepth_statistics: TRUE # Converage, total bases mapped etc.
