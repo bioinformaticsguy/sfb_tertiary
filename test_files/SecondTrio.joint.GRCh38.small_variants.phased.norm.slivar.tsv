@@ -1,0 +1,750 @@
+#mode	family_id	sample_id	chr:pos:ref:alt	genotype(sample,dad,mom)	gnomad_af	gnomad_nhomalt	gnomad_ac	colors_af	colors_nhomalt	colors_ac	gene	highest_impact	depths(sample,dad,mom)	allele_balance(sample,dad,mom)	gene_impact_transcript	lof	clinvar	phrank
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:14436734:A:C	2,1,1	0.000152845	0	21	0.000724113	0	2	KAZN	50_intron	25,48,32	1,0.583333,0.5	KAZN/intron/	pLI=0.597;oe_lof=0.21123		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:15625371:C:T	1,0,0	-1	-1	-1	-1	-1	-1	DDI2	50_intron	31,41,29	0.645161,0,0	DDI2/intron/;DDI2/non_coding/	pLI=0.998;oe_lof=0.043781		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:22795496:G:T	2,1,1	0.000825593	0	8	-1	-1	-1	EPHB2	50_intron	29,23,19	1,0.652174,0.473684	EPHB2/intron/	pLI=1;oe_lof=0.071037	Prostate cancer/brain cancer susceptibility;Bleeding disorder, platelet-type, 22	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:65664279:T:TGACACATATATATAACAAATATATATATGACACATATA	2,1,1	-1	-1	-1	0.0264301	1	73			27,42,27	1,0.642857,0.481481				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:65664280:A:T	2,1,1	-1	-1	-1	0.00506879	1	14			30,44,32	1,0.659091,0.5625				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:103614862:C:T	2,0,1	8.635e-05	0	13	-1	-1	-1			17,19,42	1,0,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:107003849:A:C	2,1,1	-1	-1	-1	-1	-1	-1			27,41,30	1,0.463415,0.4				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:116718458:C:A	2,1,1	-1	-1	-1	0.0286025	2	79			25,44,23	1,0.613636,0.652174				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:116718459:A:C	2,1,1	-1	-1	-1	0.0286025	2	79			25,44,23	1,0.613636,0.652174				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:143547269:G:A	2,1,0	1.34966e-05	0	2	-1	-1	-1	AC239859.1	53_non_coding	17,33,12	1,0.606061,0	AC239859.1/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:143607186:A:G	2,1,0	5.41734e-05	1	8	-1	-1	-1	NBPF17P	53_non_coding	20,41,13	1,0.487805,0	NBPF17P/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:143643096:G:C	2,1,0	6.74318e-06	0	1	-1	-1	-1			21,32,16	1,0.4375,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:143672790:G:A	2,1,0	6.79043e-06	0	1	-1	-1	-1			15,39,7	1,0.358974,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:143682973:C:T	2,1,0	6.75776e-06	0	1	-1	-1	-1			20,44,16	1,0.454545,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:143792992:G:T	2,1,0	-1	-1	-1	0.00977552	4	27			18,34,12	1,0.735294,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:143796789:C:T	2,1,0	-1	-1	-1	0.0104996	4	29			16,30,9	1,0.7,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:143980301:C:T	2,1,0	-1	-1	-1	-1	-1	-1	SRGAP2D	53_non_coding	24,38,13	1,0.473684,0	SRGAP2D/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:144013557:C:T	2,1,0	-1	-1	-1	-1	-1	-1	SRGAP2D	53_non_coding	14,40,19	1,0.4,0	SRGAP2D/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:144026264:T:A	2,1,0	-1	-1	-1	0.00108617	1	3	SRGAP2D	53_non_coding	15,36,15	1,0.638889,0	SRGAP2D/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:144033094:A:G	2,1,0	-1	-1	-1	-1	-1	-1	SRGAP2D	53_non_coding	16,35,14	1,0.571429,0	SRGAP2D/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:144048684:A:G	2,1,0	-1	-1	-1	-1	-1	-1	SRGAP2D	53_non_coding	17,41,9	1,0.585366,0	SRGAP2D/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:144058426:A:G	2,1,0	-1	-1	-1	-1	-1	-1	SRGAP2D	53_non_coding	18,36,12	1,0.583333,0	SRGAP2D/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:144516033:G:A	2,0,1	-1	-1	-1	0.0246198	2	68			12,19,31	1,0,0.645161				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:144963438:A:T	2,0,1	-1	-1	-1	0.0238957	3	66	SRGAP2B	50_intron	11,16,26	1,0,0.423077	SRGAP2B/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:144968143:G:A	2,0,1	-1	-1	-1	-1	-1	-1	SRGAP2B	50_intron	13,16,27	1,0,0.444444	SRGAP2B/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:145007381:A:G	2,0,1	-1	-1	-1	-1	-1	-1	SRGAP2B	50_intron	19,17,31	1,0,0.612903	SRGAP2B/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:145131802:A:G	2,0,1	-1	-1	-1	-1	-1	-1			24,17,33	1,0,0.424242				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:145169672:T:TA	2,0,1	-1	-1	-1	0.025706	3	71	LINC01145	53_non_coding	16,24,27	1,0,0.592593	LINC01145/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:145218676:A:G	2,0,1	-1	-1	-1	-1	-1	-1			13,14,35	1,0,0.457143				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:145224215:C:T	2,0,1	0.0261831	2	3916	0.0228096	2	63			14,18,28	1,0,0.607143				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:145231245:C:T	2,0,1	-1	-1	-1	0.0162925	2	45			16,21,37	1,0,0.540541				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:162365074:A:ATGTGCACG	2,1,1	-1	-1	-1	-1	-1	-1	NOS1AP	35_5_prime_utr	40,35,28	1,0.457143,0.392857	NOS1AP/5_prime_utr/ENST00000493151	pLI=0.614;oe_lof=0.20128	Nephrotic syndrome, type 22	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:162365091:T:C	2,1,1	0.0037416	1	569	0.00289645	1	8	NOS1AP	35_5_prime_utr	40,34,27	1,0.5,0.407407	NOS1AP/5_prime_utr/ENST00000493151	pLI=0.614;oe_lof=0.20128	Nephrotic syndrome, type 22	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:166353144:C:A	2,1,1	0.00800228	4	506	0.00651702	0	18			39,31,22	1,0.516129,0.545455				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:168894872:G:C	2,1,1	5.99097e-05	0	9	-1	-1	-1			36,44,19	1,0.363636,0.368421				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:169692250:T:A	2,1,1	0.000752195	0	104	0.00108617	0	3	C1orf112;SELL	50_intron	38,51,44	1,0.54902,0.545455	C1orf112/non_coding/;SELL/intron/	pLI=3.35e-10;oe_lof=0.51528;;pLI=4.96e-07;oe_lof=0.63519		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:172414644:A:G	1,0,0	-1	-1	-1	-1	-1	-1	PIGC;DNM3	50_intron	44,46,42	0.522727,0,0	PIGC/non_coding/;DNM3/intron/	pLI=0.00551;oe_lof=0.50228;;pLI=0.00242;oe_lof=0.30394	Glycosylphosphatidylinositol biosynthesis defect 16	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:173719297:T:C	1,0,0	-1	-1	-1	-1	-1	-1	KLHL20	50_intron	46,39,26	0.543478,0,0	KLHL20/non_coding/;KLHL20/intron/	pLI=0.00941;oe_lof=0.30125		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:190818968:CTA:C	2,1,1	-1	-1	-1	-1	-1	-1			36,43,35	1,0.581395,0.428571				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:190818974:G:T	2,1,1	-1	-1	-1	-1	-1	-1			35,43,33	1,0.581395,0.424242				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:190836156:T:C	2,1,1	0.000200994	0	30	0.00108617	0	3			34,52,25	1,0.461538,0.52				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:205401463:T:TGTGTCTTTTGGC	2,1,1	-1	-1	-1	-1	-1	-1	LEMD1	50_intron	38,30,32	1,0.433333,0.625	LEMD1/intron/;LEMD1/non_coding/	pLI=3.34e-06;oe_lof=1.0834		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:205401465:T:G	2,1,1	-1	-1	-1	-1	-1	-1	LEMD1	50_intron	38,30,31	1,0.433333,0.645161	LEMD1/intron/;LEMD1/non_coding/	pLI=3.34e-06;oe_lof=1.0834		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:209714024:C:T	2,1,1	-1	-1	-1	-1	-1	-1	HSD11B1	50_intron	39,43,31	1,0.44186,0.451613	HSD11B1/intron/	pLI=0.417;oe_lof=0.21039	Cortisone reductase deficiency 2	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:210823970:G:T	2,1,1	-1	-1	-1	-1	-1	-1	KCNH1	50_intron	42,42,32	1,0.666667,0.5	KCNH1/intron/	pLI=0.546;oe_lof=0.21435	Temple-Baraitser syndrome;Zimmermann-Laband syndrome 1	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:211336938:C:T	2,1,1	0.00517579	4	787	0.00144823	0	4	TRAF5	50_intron	35,29,23	1,0.551724,0.521739	TRAF5/intron/;TRAF5/non_coding/	pLI=1.67e-12;oe_lof=0.76229		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:211401091:G:C	2,1,1	0.0048199	4	733	0.00144823	0	4			40,42,32	1,0.52381,0.4375				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:212524423:G:A	1,0,0	-1	-1	-1	-1	-1	-1			37,37,16	0.540541,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:217084453:T:TAAG	2,1,1	-1	-1	-1	-1	-1	-1	ESRRG	50_intron	43,38,32	1,0.5,0.4375	ESRRG/intron/;ESRRG/non_coding/	pLI=0.0712;oe_lof=0.28379		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:217084457:A:T	2,1,1	-1	-1	-1	-1	-1	-1	ESRRG	50_intron	43,38,31	1,0.5,0.451613	ESRRG/intron/;ESRRG/non_coding/	pLI=0.0712;oe_lof=0.28379		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:217084458:T:A	2,1,1	-1	-1	-1	-1	-1	-1	ESRRG	50_intron	43,38,31	1,0.526316,0.451613	ESRRG/intron/;ESRRG/non_coding/	pLI=0.0712;oe_lof=0.28379		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:217085552:G:GTC	2,1,1	-1	-1	-1	-1	-1	-1	ESRRG	50_intron	40,36,31	1,0.527778,0.387097	ESRRG/intron/;ESRRG/non_coding/	pLI=0.0712;oe_lof=0.28379		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:217085553:C:A	2,1,1	8.9658e-05	0	12	-1	-1	-1	ESRRG	50_intron	39,36,30	1,0.527778,0.4	ESRRG/intron/;ESRRG/non_coding/	pLI=0.0712;oe_lof=0.28379		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:221802950:C:T	2,1,1	0.00533211	2	792	0.00434468	0	12			35,50,27	1,0.54,0.444444				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:221819285:C:T	2,1,1	0.00576697	3	875	0.00434468	0	12			44,47,43	1,0.489362,0.465116				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:221839151:A:T	2,1,1	0.00641911	4	976	0.00470673	0	13			25,26,32	1,0.5,0.40625				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:221852517:G:A	2,1,1	0.00647287	4	986	0.00470673	0	13			35,41,35	1,0.609756,0.4				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:223718545:G:A	2,1,1	0.00429269	0	654	0.00289645	0	8	CAPN2	50_intron	31,35,27	1,0.542857,0.592593	CAPN2/intron/	pLI=3.52e-22;oe_lof=0.81812		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:223983154:T:C	2,1,1	0.00605621	2	693	0.00217234	0	6	GTF2IP20	53_non_coding	28,40,27	1,0.525,0.518519	GTF2IP20/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:223987956:C:T	2,1,1	-1	-1	-1	0.0282404	1	78	GTF2IP20	53_non_coding	27,42,31	1,0.428571,0.612903	GTF2IP20/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:228198381:T:G	2,1,1	-1	-1	-1	-1	-1	-1			38,38,27	1,0.447368,0.555556				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:237794328:A:G	2,1,1	1.98101e-05	0	3	-1	-1	-1	RYR2	50_intron	33,48,25	1,0.583333,0.4	RYR2/intron/;RYR2/non_coding/	pLI=1;oe_lof=0.19733	Ventricular arrhythmias due to cardiac ryanodine receptor calcium release deficiency syndrome;Catecholaminergic polymorphic ventricular tachycardia 1	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:242313806:T:TTCATTGG	2,1,1	-1	-1	-1	-1	-1	-1	PLD5	50_intron	36,47,37	1,0.510638,0.351351	PLD5/intron/	pLI=0.0307;oe_lof=0.28993		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:244387511:G:GGAT	2,1,1	-1	-1	-1	-1	-1	-1	C1orf100	50_intron	38,41,37	1,0.512195,0.567568	C1orf100/intron/;C1orf100/non_coding/	pLI=1.26e-07;oe_lof=0.93549		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:244387512:T:A	2,1,1	-1	-1	-1	-1	-1	-1	C1orf100	50_intron	38,41,36	1,0.512195,0.583333	C1orf100/intron/;C1orf100/non_coding/	pLI=1.26e-07;oe_lof=0.93549		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr1:246570681:A:G	2,1,1	-1	-1	-1	-1	-1	-1	CNST	50_intron	25,43,35	1,0.581395,0.514286	CNST/non_coding/;CNST/intron/	pLI=1.24e-06;oe_lof=0.47881		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:2065850:A:G	2,1,1	0.00209219	0	183	-1	-1	-1	MYT1L	50_intron	28,38,27	1,0.657895,0.444444	MYT1L/intron/;MYT1L/non_coding/	pLI=1;oe_lof=0.018386	Intellectual disability, autosomal dominant 39	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:3821949:T:TCCAG	2,1,1	-1	-1	-1	-1	-1	-1	DCDC2C	50_intron	31,45,43	1,0.577778,0.511628	DCDC2C/intron/	pLI=0.000717;oe_lof=0.52797		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:3821950:A:T	2,1,1	-1	-1	-1	-1	-1	-1	DCDC2C	50_intron	33,45,46	1,0.577778,0.478261	DCDC2C/intron/	pLI=0.000717;oe_lof=0.52797		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:3927775:C:T	2,1,1	-1	-1	-1	-1	-1	-1			29,27,30	1,0.37037,0.433333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:3927776:C:A	2,1,1	-1	-1	-1	-1	-1	-1			29,27,30	1,0.37037,0.433333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:5812814:A:T	2,1,1	-1	-1	-1	-1	-1	-1			33,39,39	1,0.538462,0.74359				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:9196726:A:G	2,1,1	0.00574406	4	797	0.00181028	0	5			24,24,17	1,0.333333,0.411765				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:22930973:G:A	2,1,1	0.000283137	0	43	-1	-1	-1			48,32,26	1,0.53125,0.615385				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:23311034:GGGGAAA:G	2,1,1	-1	-1	-1	-1	-1	-1			40,30,25	1,0.566667,0.56				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:23311042:A:T	2,1,1	-1	-1	-1	-1	-1	-1			40,31,28	1,0.548387,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:23311043:G:A	2,1,1	-1	-1	-1	-1	-1	-1			40,31,26	1,0.548387,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:23311044:C:A	2,1,1	-1	-1	-1	-1	-1	-1			39,32,28	1,0.5625,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:34074340:TGA:T	2,1,1	-1	-1	-1	-1	-1	-1			50,57,47	0.98,0.526316,0.340426				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:34074345:C:A	2,1,1	-1	-1	-1	-1	-1	-1			49,57,48	1,0.526316,0.333333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:36640231:T:TGTTATC	2,1,1	-1	-1	-1	-1	-1	-1	FEZ2	50_intron	28,39,32	1,0.410256,0.5	FEZ2/intron/	pLI=1.15e-11;oe_lof=0.98382		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:36640232:T:A	2,1,1	6.5735e-06	0	1	-1	-1	-1	FEZ2	50_intron	30,36,33	1,0.444444,0.515152	FEZ2/intron/	pLI=1.15e-11;oe_lof=0.98382		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:37985378:T:A	2,1,1	0.00140509	1	213	0.00181028	0	5	RMDN2	50_intron	41,40,24	1,0.7,0.291667	RMDN2/intron/;RMDN2/non_coding/	pLI=4.41e-24;oe_lof=1.1648		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:39895646:C:A	2,1,1	0.00208197	0	317	0.000724113	0	2			35,40,35	1,0.55,0.6				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:39980402:G:A	2,1,1	0.000243226	0	37	-1	-1	-1			39,41,39	1,0.414634,0.512821				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:40012698:C:T	2,1,1	0.00149801	0	224	0.000724113	0	2			36,42,29	1,0.595238,0.517241				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:40508448:C:T	2,1,1	0.000151589	0	23	-1	-1	-1	SLC8A1	50_intron	37,39,43	1,0.538462,0.534884	SLC8A1/intron/	pLI=0.996;oe_lof=0.11854		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:40946259:A:G	2,1,1	0.00205843	1	313	0.00108617	0	3			24,53,53	1,0.660377,0.622642				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41062710:T:C	2,1,1	0.00198264	1	301	-1	-1	-1			33,42,35	1,0.404762,0.514286				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41113319:C:T	2,1,1	0.00813147	3	1236	0.00289645	0	8			47,45,36	1,0.488889,0.527778				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41140196:A:G	2,1,1	0.00186621	1	284	0.000724113	0	2			35,36,41	1,0.388889,0.634146				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41179472:T:C	2,1,1	0.00406937	4	619	0.00108617	0	3			36,44,38	1,0.522727,0.526316				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41187116:G:C	2,1,1	3.96432e-05	0	6	-1	-1	-1			46,45,32	1,0.511111,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41187117:A:C	2,1,1	0.000856164	0	6	-1	-1	-1			45,46,33	1,0.5,0.515152				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41187118:G:T	2,1,1	3.96532e-05	0	6	-1	-1	-1			46,45,33	1,0.511111,0.515152				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41187119:T:TAACTTTTCC	2,1,1	-1	-1	-1	-1	-1	-1			46,45,31	1,0.488889,0.483871				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41246189:G:A	2,1,1	0.00260831	2	397	0.00108617	0	3			30,32,23	1,0.5,0.565217				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41258175:T:C	2,1,1	0.00249678	2	380	-1	-1	-1			32,33,27	1,0.484848,0.592593				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41697778:C:T	2,1,1	0.00214048	1	312	-1	-1	-1			35,47,38	1,0.659574,0.526316				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:41878200:G:A	2,1,1	0.00151642	0	231	0.000724113	0	2			38,34,33	1,0.558824,0.484848				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:45103708:G:T	1,0,0	-1	-1	-1	-1	-1	-1			43,44,28	0.55814,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:45103709:A:T	1,0,0	-1	-1	-1	-1	-1	-1			43,44,28	0.55814,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:47106576:T:C	1,0,0	6.58103e-06	0	1	-1	-1	-1	STPG4;AC073283.3	50_intron	28,31,20	0.464286,0,0	STPG4/non_coding/;AC073283.3/intron/;STPG4/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:53756396:G:C	2,1,1	-1	-1	-1	-1	-1	-1	ASB3	50_intron	39,48,44	1,0.520833,0.454545	ASB3/intron/;ASB3/non_coding/	pLI=1.44e-07;oe_lof=0.58387		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:53756397:C:A	2,1,1	3.93441e-05	0	5	-1	-1	-1	ASB3	50_intron	38,49,44	1,0.510204,0.454545	ASB3/intron/;ASB3/non_coding/	pLI=1.44e-07;oe_lof=0.58387		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:53756398:A:T	2,1,1	3.28722e-05	0	5	-1	-1	-1	ASB3	50_intron	39,50,44	1,0.5,0.454545	ASB3/intron/;ASB3/non_coding/	pLI=1.44e-07;oe_lof=0.58387		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:64254095:A:C	2,0,1	0.000224163	3	33	-1	-1	-1			16,25,27	1,0,0.481481				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:65369653:A:ATAC	2,1,1	-1	-1	-1	-1	-1	-1	SPRED2	50_intron	27,43,27	1,0.465116,0.481481	SPRED2/intron/	pLI=2.87e-07;oe_lof=0.67328	Noonan syndrome 14	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:65369654:C:T	2,1,1	-1	-1	-1	-1	-1	-1	SPRED2	50_intron	27,43,27	1,0.465116,0.481481	SPRED2/intron/	pLI=2.87e-07;oe_lof=0.67328	Noonan syndrome 14	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:71407651:A:T	1,0,0	-1	-1	-1	-1	-1	-1	ZNF638	50_intron	35,34,30	0.371429,0,0	ZNF638/intron/;ZNF638/non_coding/	pLI=1;oe_lof=0.093445		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:72288692:A:T	2,1,1	1.5298e-05	0	1	-1	-1	-1	EXOC6B	50_intron	43,45,47	1,0.533333,0.361702	EXOC6B/intron/;EXOC6B/non_coding/	pLI=0.117;oe_lof=0.24462	Spondyloepimetaphyseal dysplasia with joint laxity, type 3	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:79015932:A:C	2,1,1	0.00216397	1	123	0.00217234	0	6			38,39,31	1,0.435897,0.483871				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:85635998:A:C	2,1,1	-1	-1	-1	-1	-1	-1	USP39	50_intron	32,35,32	1,0.6,0.46875	USP39/non_coding/;USP39/intron/	pLI=0.0104;oe_lof=0.30982		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:104690115:T:TCTGAAGTTTGAAAG	2,1,1	-1	-1	-1	-1	-1	-1			54,34,32	1,0.470588,0.40625				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:104690117:CA:C	2,1,1	2.63366e-05	0	4	-1	-1	-1			54,34,31	1,0.470588,0.387097				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:104690119:G:C	2,1,1	2.63397e-05	0	4	-1	-1	-1			53,34,31	1,0.470588,0.387097				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:108415787:T:A	2,1,1	0.000470898	0	5	-1	-1	-1			28,13,25	1,0.384615,0.6				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:109775017:A:G	2,0,1	-1	-1	-1	0.00289645	1	8			18,21,29	1,0,0.517241				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:111817970:T:C	2,1,1	-1	-1	-1	0.0133961	0	37	ANAPC1	50_intron	35,41,28	1,0.634146,0.428571	ANAPC1/intron/;ANAPC1/non_coding/	pLI=0.945;oe_lof=0.2007	Rothmund-Thomson syndrome type 1	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:112330941:AATAATTTT:A	2,1,1	-1	-1	-1	-1	-1	-1	ZC3H6	50_intron	33,43,27	1,0.511628,0.444444	ZC3H6/intron/	pLI=0.192;oe_lof=0.23923		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:112330953:A:T	2,1,1	-1	-1	-1	-1	-1	-1	ZC3H6	50_intron	33,43,28	1,0.511628,0.428571	ZC3H6/intron/	pLI=0.192;oe_lof=0.23923		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:112354954:CAAAAAAAAA:C	2,1,1	-1	-1	-1	0.019551	3	54			22,21,15	1,0.666667,0.466667				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:119479336:G:C	1,0,0	-1	-1	-1	-1	-1	-1	SCTR	50_intron	34,22,31	0.411765,0,0	SCTR/intron/;SCTR/non_coding/	pLI=2.43e-12;oe_lof=0.79419		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:134607955:A:AAGGACAGACCCCGAGAACTGTGCTGGTGAAAAGG	1,0,0	-1	-1	-1	-1	-1	-1	TMEM163	50_intron	25,11,19	0.32,0,0	TMEM163/intron/	pLI=0.0397;oe_lof=0.37208	Leukodystrophy, hypomyelinating, 25	
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:135891166:G:A	2,1,1	0.00709252	4	1079	0.0025344	0	7			38,40,30	1,0.425,0.466667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:135957453:C:T	2,1,1	0.007665	3	1166	0.00289645	0	8	DARS1	50_intron	45,42,30	1,0.5,0.5	DARS1/intron/;DARS1/non_coding/		Hypomyelination with brain stem and spinal cord involvement and leg spasticity	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:136005280:A:C	2,1,1	0.00779312	4	1150	0.00289645	0	8			42,43,38	1,0.44186,0.473684				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:136021750:A:G	2,1,1	0.00724657	3	1099	0.00325851	0	9			46,30,37	1,0.4,0.351351				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:151500423:T:TAGAC	2,1,1	-1	-1	-1	-1	-1	-1	RIF1;NEB	50_intron	30,38,33	1,0.526316,0.515152	RIF1/intron/;NEB/intron/;NEB/non_coding/	pLI=1;oe_lof=0.057117;;pLI=4.56e-41;oe_lof=0.36939	Arthrogryposis multiplex congenita 6;Nemaline myopathy 2	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:151500425:C:G	2,1,1	0.000820942	1	124	-1	-1	-1	RIF1;NEB	50_intron	30,38,33	1,0.552632,0.515152	RIF1/intron/;NEB/intron/;NEB/non_coding/	pLI=1;oe_lof=0.057117;;pLI=4.56e-41;oe_lof=0.36939	Arthrogryposis multiplex congenita 6;Nemaline myopathy 2	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:176672614:A:T	2,1,1	6.71159e-06	0	1	-1	-1	-1			47,51,26	1,0.392157,0.615385				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:179200801:C:T	1,0,0	-1	-1	-1	-1	-1	-1	SESTD1	50_intron	18,22,31	0.277778,0,0	SESTD1/intron/	pLI=0.998;oe_lof=0.13441		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:179200803:G:T	1,0,0	-1	-1	-1	-1	-1	-1	SESTD1	50_intron	18,22,31	0.277778,0,0	SESTD1/intron/	pLI=0.998;oe_lof=0.13441		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:196237026:T:G	2,1,1	0.0068155	4	1038	0.00217234	1	6	HECW2	50_intron	28,50,24	1,0.5,0.5	HECW2/intron/;HECW2/non_coding/	pLI=1;oe_lof=0.16135	Neurodevelopmental disorder with hypotonia, seizures, and absent language	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:201455432:GACC:G	2,1,1	-1	-1	-1	-1	-1	-1	STRADB	50_intron	40,43,25	1,0.604651,0.48	STRADB/intron/;STRADB/non_coding/	pLI=0.00101;oe_lof=0.39461		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:201455436:A:C	2,1,1	-1	-1	-1	-1	-1	-1	STRADB	50_intron	40,43,24	1,0.604651,0.458333	STRADB/intron/;STRADB/non_coding/	pLI=0.00101;oe_lof=0.39461		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:207082283:T:C	1,0,0	6.57065e-06	0	1	-1	-1	-1	KLF7	50_intron	41,45,31	0.414634,0,0	KLF7/intron/;KLF7/non_coding/	pLI=0.982;oe_lof=0		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:216395105:G:GTGAGGAA	2,1,1	-1	-1	-1	-1	-1	-1			32,44,34	1,0.431818,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:216395108:G:C	2,1,1	-1	-1	-1	-1	-1	-1			32,44,34	1,0.431818,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:216395109:C:A	2,1,1	-1	-1	-1	-1	-1	-1			32,44,34	1,0.431818,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:221194108:A:C	2,1,1	8.53913e-05	0	5	-1	-1	-1			33,50,25	1,0.5,0.48				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:225667266:G:T	2,1,1	-1	-1	-1	-1	-1	-1			36,33,36	1,0.606061,0.305556				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:225667267:C:T	2,1,1	-1	-1	-1	-1	-1	-1			37,33,36	1,0.606061,0.305556				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:225667268:C:T	2,1,1	-1	-1	-1	-1	-1	-1			37,33,35	1,0.606061,0.314286				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr2:225667269:A:G	2,1,1	-1	-1	-1	-1	-1	-1			36,32,36	1,0.625,0.305556				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:1626879:G:T	1,0,0	-1	-1	-1	-1	-1	-1			41,47,25	0.560976,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:11240639:TTAAG:T	2,1,1	-1	-1	-1	-1	-1	-1	HRH1	50_intron	39,35,29	1,0.542857,0.551724	HRH1/intron/	pLI=1.86e-06;oe_lof=0.69831		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:11240644:C:G	2,1,1	-1	-1	-1	-1	-1	-1	HRH1	50_intron	39,36,30	1,0.555556,0.533333	HRH1/intron/	pLI=1.86e-06;oe_lof=0.69831		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:30083299:CCTT:C	2,1,1	-1	-1	-1	-1	-1	-1			25,36,37	1,0.611111,0.540541				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:30083305:C:T	2,1,1	-1	-1	-1	-1	-1	-1			25,35,38	1,0.628571,0.526316				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:45150694:T:A	2,1,1	0.000139292	0	21	0.00470673	0	13			25,36,38	1,0.305556,0.526316				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:67712579:A:G	1,0,0	-1	-1	-1	-1	-1	-1			36,50,45	0.472222,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:71881327:A:ACTG	2,1,1	-1	-1	-1	-1	-1	-1			33,31,27	1,0.354839,0.666667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:71881328:G:A	2,1,1	-1	-1	-1	-1	-1	-1			33,31,28	1,0.354839,0.642857				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:87931539:T:A	1,0,0	-1	-1	-1	-1	-1	-1			34,50,44	0.441176,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:89295389:T:A	2,1,1	-1	-1	-1	-1	-1	-1	EPHA3	50_intron	40,49,29	1,0.510204,0.448276	EPHA3/intron/	pLI=1.2e-05;oe_lof=0.35564		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:89915173:A:G	1,0,0	-1	-1	-1	-1	-1	-1			48,43,31	0.458333,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:91098402:T:A	1,0,0	-1	-1	-1	-1	-1	-1			18,32,28	0.222222,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:108815576:CCTTGTA:C	2,1,1	-1	-1	-1	-1	-1	-1			31,34,36	1,0.5,0.666667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:117056560:G:T	2,1,1	3.40654e-05	0	3	-1	-1	-1	LSAMP	50_intron	43,49,35	1,0.489796,0.428571	LSAMP/intron/	pLI=0.987;oe_lof=0.056736		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:117056562:A:T	2,1,1	1.31666e-05	0	2	-1	-1	-1	LSAMP	50_intron	42,49,34	1,0.489796,0.411765	LSAMP/intron/	pLI=0.987;oe_lof=0.056736		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:120351814:T:TTA	2,1,1	-1	-1	-1	-1	-1	-1	AC063952.1	53_non_coding	36,36,38	1,0.583333,0.447368	AC063952.1/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:120351815:A:G	2,1,1	2.6371e-05	0	4	-1	-1	-1	AC063952.1	53_non_coding	36,38,38	1,0.578947,0.447368	AC063952.1/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:136284316:T:TGATGTTTC	2,1,1	-1	-1	-1	-1	-1	-1	PCCB	50_intron	31,34,32	1,0.647059,0.65625	PCCB/intron/;PCCB/non_coding/	pLI=1.53e-08;oe_lof=0.59613	Propionic acidemia;Propionic acidemia	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:136284317:T:A	2,1,1	-1	-1	-1	-1	-1	-1	PCCB	50_intron	30,34,31	1,0.647059,0.677419	PCCB/intron/;PCCB/non_coding/	pLI=1.53e-08;oe_lof=0.59613	Propionic acidemia;Propionic acidemia	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:151507954:A:C	2,1,1	-1	-1	-1	-1	-1	-1			24,34,42	1,0.5,0.5				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:153856962:ATGGGCTCTCTG:A	1,0,0	-1	-1	-1	-1	-1	-1			54,33,41	0.5,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:158229359:T:C	2,1,1	7.09733e-06	0	1	-1	-1	-1	RSRC1	50_intron	32,54,44	1,0.5,0.431818	RSRC1/intron/;RSRC1/non_coding/	pLI=7.45e-05;oe_lof=0.4931	Intellectual developmental disorder, autosomal recessive 70	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:176946101:A:G	1,0,0	-1	-1	-1	-1	-1	-1			31,38,19	0.483871,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:177448977:A:T	2,1,1	-1	-1	-1	-1	-1	-1			26,37,35	1,0.405405,0.542857				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:177448978:T:G	2,1,1	-1	-1	-1	-1	-1	-1			24,37,35	1,0.405405,0.542857				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:184874413:A:G	1,0,0	-1	-1	-1	-1	-1	-1	VPS8	50_intron	35,43,22	0.371429,0,0	VPS8/intron/	pLI=5.11e-08;oe_lof=0.3373		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:191452496:A:G	1,0,0	-1	-1	-1	-1	-1	-1			32,47,26	0.375,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr3:192407708:G:GATGAATGAATGA	2,1,1	-1	-1	-1	-1	-1	-1	FGF12	50_intron	26,36,36	1,0.5,0.555556	FGF12/intron/	pLI=0.623;oe_lof=0.17062	Developmental and epileptic encephalopathy, 47	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:6616835:G:A	2,1,1	0.00293515	1	447	0.00289645	1	8	MAN2B2	50_intron	23,28,25	1,0.642857,0.4	MAN2B2/intron/	pLI=6.56e-23;oe_lof=0.7791		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:15793531:G:A	1,0,0	-1	-1	-1	-1	-1	-1	CD38	50_intron	41,33,24	0.463415,0,0	CD38/intron/;CD38/non_coding/	pLI=2.31e-06;oe_lof=0.68035		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:23421299:T:G	2,1,1	-1	-1	-1	-1	-1	-1			27,41,33	1,0.487805,0.545455				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:25502789:A:T	2,1,1	9.59141e-05	0	2	-1	-1	-1			27,38,33	1,0.5,0.515152				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:25502791:G:GGAGGATCA	2,1,1	-1	-1	-1	-1	-1	-1			27,38,33	1,0.5,0.515152				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:27720210:AGGCG:A	2,1,1	-1	-1	-1	-1	-1	-1			41,51,37	1,0.529412,0.540541				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:27720216:G:C	2,1,1	1.37618e-05	0	2	-1	-1	-1			41,51,37	1,0.529412,0.540541				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:27720217:G:A	2,1,1	1.37697e-05	0	2	0.0199131	0	55			41,49,37	1,0.55102,0.540541				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:27720220:A:C	2,1,1	-1	-1	-1	0.0199131	0	55			41,51,37	1,0.529412,0.540541				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:27720222:T:A	2,1,1	1.37749e-05	0	2	0.0199131	0	55			41,51,37	1,0.529412,0.540541				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:40049549:AATG:A	1,0,0	-1	-1	-1	-1	-1	-1	AC098591.2	53_non_coding	28,36,23	0.285714,0,0	AC098591.2/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:45025059:A:C	2,1,1	-1	-1	-1	-1	-1	-1			27,42,30	1,0.571429,0.533333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:47132432:G:T	2,1,1	0.00154142	0	85	0.00977552	0	27	GABRB1	50_intron	30,31,30	1,0.645161,0.633333	GABRB1/intron/	pLI=0.981;oe_lof=0.11835	Developmental and epileptic encephalopathy, 45	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:51800247:A:C	1,0,0	-1	-1	-1	-1	-1	-1			23,132,131	0.391304,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:52265719:TGAGGTATACCTTTATGAG:T	2,1,1	-1	-1	-1	-1	-1	-1			42,35,42	1,0.4,0.380952				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:52265741:T:C	2,1,1	-1	-1	-1	-1	-1	-1			42,35,42	1,0.4,0.380952				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:52265742:A:T	2,1,1	-1	-1	-1	-1	-1	-1			42,35,41	1,0.4,0.390244				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:52317335:C:T	2,1,1	0.000238524	0	36	-1	-1	-1			44,42,25	1,0.547619,0.48				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:57942478:ATTCCCACTAATGT:A	2,1,1	-1	-1	-1	-1	-1	-1			26,49,34	1,0.44898,0.441176				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:57942492:A:G	2,1,1	-1	-1	-1	-1	-1	-1			26,48,34	1,0.458333,0.441176				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:59430739:T:A	2,1,1	-1	-1	-1	-1	-1	-1			21,35,41	1,0.257143,0.365854				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:71253147:T:C	1,0,0	-1	-1	-1	-1	-1	-1	SLC4A4	50_intron	43,38,28	0.465116,0,0	SLC4A4/intron/	pLI=0.997;oe_lof=0.1454	Autosomal recessive proximal renal tubular acidosis	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:76020838:A:G	1,0,0	-1	-1	-1	-1	-1	-1	ART3	50_intron	41,37,35	0.560976,0,0	ART3/intron/;ART3/non_coding/	pLI=5.1e-15;oe_lof=0.99802		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:108180700:A:G	2,1,1	-1	-1	-1	-1	-1	-1			31,40,39	1,0.6,0.538462				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:108180703:G:A	2,1,1	-1	-1	-1	-1	-1	-1			31,39,40	1,0.589744,0.525				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:110321806:T:A	2,1,1	0.000733417	0	54	0.00108617	0	3			38,35,34	1,0.571429,0.617647				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:114520735:A:G	2,1,1	6.91515e-05	0	2	-1	-1	-1			35,35,27	1,0.342857,0.555556				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:117019429:T:A	2,1,1	0.0118284	2	177	0.00144823	1	4			31,39,34	1,0.615385,0.470588				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:119756486:T:A	2,1,1	-1	-1	-1	-1	-1	-1			28,48,29	1,0.520833,0.413793				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:132508793:A:T	2,1,1	-1	-1	-1	-1	-1	-1			41,48,41	1,0.583333,0.512195				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:143959444:G:GGCTATACTT	2,1,1	-1	-1	-1	-1	-1	-1			41,27,33	1,0.481481,0.515152				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:143959447:A:T	2,1,1	7.94155e-05	0	12	-1	-1	-1			41,30,31	1,0.533333,0.548387				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:143973034:A:C	2,1,1	-1	-1	-1	0.0231716	4	64			42,28,34	1,0.5,0.558824				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:155281997:C:A	2,1,1	-1	-1	-1	0.0242578	0	67			45,41,36	1,0.634146,0.444444				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:158448417:C:CATATATGTGT	2,1,1	-1	-1	-1	-1	-1	-1	RXFP1	50_intron	40,44,45	1,0.477273,0.511111	RXFP1/intron/	pLI=1.39e-12;oe_lof=0.6412		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:159365840:AGGAGCAGAAGTTG:A	2,1,1	-1	-1	-1	-1	-1	-1			35,38,33	1,0.526316,0.484848				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:159365854:T:C	2,1,1	0.00012163	0	6	-1	-1	-1			34,38,33	1,0.526316,0.484848				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:168770739:C:T	2,1,1	-1	-1	-1	-1	-1	-1	PALLD	50_intron	32,42,35	1,0.571429,0.485714	PALLD/intron/	pLI=5.25e-06;oe_lof=0.34944	Pancreatic cancer, susceptibility to, 1	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:168770740:A:T	2,1,1	-1	-1	-1	-1	-1	-1	PALLD	50_intron	32,42,35	1,0.571429,0.514286	PALLD/intron/	pLI=5.25e-06;oe_lof=0.34944	Pancreatic cancer, susceptibility to, 1	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:168770741:A:T	2,1,1	-1	-1	-1	-1	-1	-1	PALLD	50_intron	32,42,35	1,0.571429,0.514286	PALLD/intron/	pLI=5.25e-06;oe_lof=0.34944	Pancreatic cancer, susceptibility to, 1	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:178060036:G:GAATAGACTGAA	2,1,1	-1	-1	-1	-1	-1	-1			33,48,50	1,0.604167,0.46				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:178060039:G:T	2,1,1	1.98476e-05	0	3	-1	-1	-1			35,48,50	1,0.625,0.48				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:178498517:A:T	2,1,1	-1	-1	-1	-1	-1	-1			32,44,46	1,0.590909,0.521739				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:178499059:GTTTTTC:G	2,1,1	-1	-1	-1	-1	-1	-1			35,42,45	1,0.619048,0.533333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:178499066:C:A	2,1,1	-1	-1	-1	-1	-1	-1			35,42,46	1,0.619048,0.521739				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:183538266:GTTTGT:G	2,1,1	-1	-1	-1	-1	-1	-1			34,31,35	1,0.451613,0.542857				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:184797160:CCGCTCA:C	2,1,1	-1	-1	-1	-1	-1	-1	ACSL1	50_intron	26,41,32	1,0.390244,0.5	ACSL1/intron/	pLI=0.00153;oe_lof=0.30463		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:184797167:C:G	2,1,1	8.77501e-06	0	1	-1	-1	-1	ACSL1	50_intron	26,41,32	1,0.390244,0.5	ACSL1/intron/	pLI=0.00153;oe_lof=0.30463		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:186810794:C:CTGTAACAT	2,1,1	-1	-1	-1	-1	-1	-1			23,53,35	1,0.471698,0.428571				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr4:186810795:G:T	2,1,1	1.31468e-05	0	2	-1	-1	-1			23,53,34	1,0.471698,0.441176				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:1922194:G:GTCAAGAA	2,1,1	-1	-1	-1	-1	-1	-1			30,35,27	1,0.542857,0.444444				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:1922195:G:T	2,1,1	-1	-1	-1	-1	-1	-1			30,35,27	1,0.542857,0.444444				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:3171298:T:TTACATA	2,1,1	-1	-1	-1	-1	-1	-1			41,41,24	1,0.414634,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:4645697:T:C	2,1,1	0.000757619	0	53	0.00543085	0	15			36,46,30	1,0.478261,0.4				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:6492345:T:A	1,0,0	-1	-1	-1	-1	-1	-1	UBE2QL1	36_3_prime_utr	43,29,28	0.372093,0,0	UBE2QL1/3_prime_utr/ENST00000399816	pLI=0.678;oe_lof=0		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:12693830:C:CT	1,0,0	-1	-1	-1	-1	-1	-1			37,17,32	0.594595,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:14830009:T:G	1,0,0	-1	-1	-1	-1	-1	-1	ANKH	50_intron	40,37,41	0.575,0,0	ANKH/intron/;ANKH/non_coding/	pLI=0.279;oe_lof=0.23749	Craniometaphyseal dysplasia, autosomal dominant;Chondrocalcinosis 2	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:15468730:T:C	1,0,0	-1	-1	-1	-1	-1	-1			34,31,49	0.411765,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:16980950:GAAC:G	2,1,1	-1	-1	-1	-1	-1	-1			21,25,24	1,0.64,0.458333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:16980962:C:A	2,1,1	1.10771e-05	0	1	-1	-1	-1			21,24,23	1,0.625,0.478261				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:23187808:A:ATAATTGTC	2,1,1	-1	-1	-1	-1	-1	-1			40,43,32	1,0.465116,0.375				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:23187809:A:T	2,1,1	-1	-1	-1	-1	-1	-1			40,41,32	1,0.487805,0.375				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:23187810:C:T	2,1,1	-1	-1	-1	-1	-1	-1			39,41,32	1,0.487805,0.375				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:34341254:T:TATGATTTTAGCC	2,1,1	-1	-1	-1	-1	-1	-1			38,48,37	1,0.5625,0.459459				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:34341255:G:T	2,1,1	-1	-1	-1	-1	-1	-1			38,48,37	1,0.5625,0.459459				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:34341257:T:A	2,1,1	4.18025e-05	0	2	-1	-1	-1			38,48,36	1,0.5625,0.444444				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:38152458:A:T	2,1,1	-1	-1	-1	-1	-1	-1			51,45,27	0.980392,0.466667,0.444444				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:38152459:T:A	2,1,1	-1	-1	-1	-1	-1	-1			50,46,27	1,0.456522,0.444444				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:51535959:A:G	2,1,1	-1	-1	-1	-1	-1	-1			39,38,38	1,0.421053,0.421053				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:51535960:T:C	2,1,1	-1	-1	-1	-1	-1	-1			39,38,37	1,0.421053,0.432432				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:51535967:T:C	2,1,1	0.0123716	4	330	0.00144823	0	4			39,38,38	1,0.421053,0.447368				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:63149304:GGAAAC:G	2,1,1	-1	-1	-1	-1	-1	-1			37,37,42	1,0.486486,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:63149310:C:A	2,1,1	-1	-1	-1	-1	-1	-1			37,37,42	1,0.486486,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:64567879:T:TTTATATATACTGGATATA	2,1,1	-1	-1	-1	-1	-1	-1	RGS7BP	50_intron	40,36,43	1,0.5,0.534884	RGS7BP/intron/;RGS7BP/non_coding/	pLI=0.958;oe_lof=0.06989		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:64567881:C:A	2,1,1	-1	-1	-1	-1	-1	-1	RGS7BP	50_intron	40,36,42	1,0.5,0.547619	RGS7BP/intron/;RGS7BP/non_coding/	pLI=0.958;oe_lof=0.06989		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:64567883:T:A	2,1,1	-1	-1	-1	-1	-1	-1	RGS7BP	50_intron	40,36,43	1,0.5,0.534884	RGS7BP/intron/;RGS7BP/non_coding/	pLI=0.958;oe_lof=0.06989		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:65587875:C:CATAG	2,1,1	-1	-1	-1	-1	-1	-1			33,50,24	1,0.46,0.416667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:65587883:T:G	2,1,1	0.00351656	4	531	0.00181028	0	5			33,50,25	1,0.46,0.44				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:83730073:ACTAC:A	2,1,1	-1	-1	-1	-1	-1	-1			33,40,31	1,0.475,0.451613				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:96891504:TATATATATATATGCCC:T	2,1,1	-1	-1	-1	-1	-1	-1	ERAP2	50_intron	33,29,35	1,0.310345,0.6	ERAP2/intron/	pLI=1e-28;oe_lof=0.92859		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:96891525:A:G	2,1,1	3.28084e-05	0	1	-1	-1	-1	ERAP2	50_intron	33,30,35	1,0.3,0.6	ERAP2/intron/	pLI=1e-28;oe_lof=0.92859		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:107063795:T:C	1,0,0	-1	-1	-1	-1	-1	-1			39,40,24	0.487179,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:111354614:CAGG:C	2,1,1	-1	-1	-1	-1	-1	-1	CAMK4	50_intron	28,59,43	1,0.542373,0.418605	CAMK4/intron/;CAMK4/non_coding/	pLI=0.51;oe_lof=0.20735		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:111354618:A:T	2,1,1	-1	-1	-1	-1	-1	-1	CAMK4	50_intron	28,59,43	1,0.542373,0.418605	CAMK4/intron/;CAMK4/non_coding/	pLI=0.51;oe_lof=0.20735		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:111354621:A:G	2,1,1	-1	-1	-1	-1	-1	-1	CAMK4	50_intron	28,59,43	1,0.542373,0.418605	CAMK4/intron/;CAMK4/non_coding/	pLI=0.51;oe_lof=0.20735		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:111354622:T:C	2,1,1	-1	-1	-1	-1	-1	-1	CAMK4	50_intron	28,59,43	1,0.542373,0.418605	CAMK4/intron/;CAMK4/non_coding/	pLI=0.51;oe_lof=0.20735		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:111354623:C:T	2,1,1	-1	-1	-1	-1	-1	-1	CAMK4	50_intron	28,59,43	1,0.542373,0.418605	CAMK4/intron/;CAMK4/non_coding/	pLI=0.51;oe_lof=0.20735		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:115186378:T:TAAGTACTTATATTTAATACTTAATGAATAAATATACTTACTTTACAATGGACTTATTGTAAAGTACTTACAATGTAAATATAAAAAGTA	2,1,1	-1	-1	-1	-1	-1	-1			27,43,33	1,0.511628,0.484848				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:115186381:C:CAGG	2,1,1	-1	-1	-1	-1	-1	-1			29,45,33	1,0.533333,0.484848				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:119041471:A:AGGGCAG	2,1,1	-1	-1	-1	-1	-1	-1	DMXL1	53_non_coding	25,37,37	1,0.594595,0.324324	DMXL1/non_coding/	pLI=1;oe_lof=0.13771		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:131438116:G:GGCAT	2,1,1	-1	-1	-1	-1	-1	-1	RAPGEF6	50_intron	32,41,53	1,0.512195,0.528302	RAPGEF6/intron/;RAPGEF6/non_coding/	pLI=0.996;oe_lof=0.17869		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:131438117:T:G	2,1,1	-1	-1	-1	-1	-1	-1	RAPGEF6	50_intron	32,41,53	1,0.512195,0.528302	RAPGEF6/intron/;RAPGEF6/non_coding/	pLI=0.996;oe_lof=0.17869		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:138454797:G:GTTGTCCAGGT	2,1,1	-1	-1	-1	-1	-1	-1			32,23,28	1,0.521739,0.428571				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:138454799:C:G	2,1,1	-1	-1	-1	-1	-1	-1			32,23,28	1,0.521739,0.428571				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:145003571:T:A	1,0,0	-1	-1	-1	-1	-1	-1	NAMPTP2	53_non_coding	36,50,38	0.638889,0,0	NAMPTP2/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:150208080:G:T	2,1,1	-1	-1	-1	-1	-1	-1	SLC6A7	50_intron	19,28,27	1,0.571429,0.481481	SLC6A7/intron/	pLI=5.55e-10;oe_lof=0.60834		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:150489273:T:G	1,0,0	-1	-1	-1	-1	-1	-1	NDST1	50_intron	28,34,24	0.464286,0,0	NDST1/intron/;NDST1/non_coding/	pLI=1;oe_lof=0.072234	Intellectual disability, autosomal recessive 46	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:167364572:G:A	2,1,1	0.00659383	3	1003	0.00543085	0	15	TENM2	50_intron	41,44,30	1,0.5,0.466667	TENM2/intron/	pLI=1;oe_lof=0.12005		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:171230489:A:C	1,0,0	-1	-1	-1	-1	-1	-1	RANBP17	50_intron	41,46,20	0.536585,0,0	RANBP17/intron/;RANBP17/non_coding/	pLI=7.17e-45;oe_lof=1.0698		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:173082908:CAAAAAAAAAAAA:C	2,1,0	-1	-1	-1	0.0166546	1	46	CREBRF	50_intron	11,20,8	1,0.5,0	CREBRF/intron/;CREBRF/non_coding/	pLI=1;oe_lof=0		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr5:176316282:T:TA	1,0,0	-1	-1	-1	-1	-1	-1	SIMC1	50_intron	40,32,30	0.575,0,0	SIMC1/intron/;SIMC1/non_coding/	pLI=3.92e-06;oe_lof=0.56337		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:249020:A:G	1,0,0	-1	-1	-1	-1	-1	-1			36,21,30	0.361111,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:1625394:A:ATCCAGC	2,1,1	-1	-1	-1	-1	-1	-1	GMDS	50_intron	32,26,19	1,0.653846,0.421053	GMDS/intron/;GMDS/non_coding/	pLI=0.991;oe_lof=0.08681		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:1625395:G:A	2,1,1	-1	-1	-1	-1	-1	-1	GMDS	50_intron	32,26,19	1,0.653846,0.421053	GMDS/intron/;GMDS/non_coding/	pLI=0.991;oe_lof=0.08681		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:4778689:T:C	1,0,0	-1	-1	-1	-1	-1	-1	CDYL	50_intron	26,24,36	0.461538,0,0	CDYL/intron/;CDYL/non_coding/	pLI=0.995;oe_lof=0.049666		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:26118342:T:C	2,1,1	-1	-1	-1	-1	-1	-1	H2BC4	50_intron	38,45,27	1,0.511111,0.666667	H2BC4/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:31320303:G:GTA	2,1,1	-1	-1	-1	-1	-1	-1	HLA-B	50_intron	18,28,26	1,0.285714,0.615385	HLA-B/intron/	pLI=3.86e-05;oe_lof=0.53786	Carbamazepine response;Susceptibility to severe cutaneous adverse reaction;Carbamazepine hypersensitivity;Abacavir hypersensitivity;Spondyloarthropathy, susceptibility to, 1;Allopurinol response	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:31327960:A:ACACTGGG	2,1,1	-1	-1	-1	-1	-1	-1	HLA-B	50_intron	23,36,24	1,0.388889,0.416667	HLA-B/intron/	pLI=3.86e-05;oe_lof=0.53786	Carbamazepine response;Susceptibility to severe cutaneous adverse reaction;Carbamazepine hypersensitivity;Abacavir hypersensitivity;Spondyloarthropathy, susceptibility to, 1;Allopurinol response	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:31329028:T:TATC	2,1,1	-1	-1	-1	-1	-1	-1	HLA-B	50_intron	21,37,24	1,0.351351,0.416667	HLA-B/intron/	pLI=3.86e-05;oe_lof=0.53786	Carbamazepine response;Susceptibility to severe cutaneous adverse reaction;Carbamazepine hypersensitivity;Abacavir hypersensitivity;Spondyloarthropathy, susceptibility to, 1;Allopurinol response	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:31329032:T:C	2,1,1	-1	-1	-1	-1	-1	-1	HLA-B	50_intron	21,37,24	1,0.378378,0.416667	HLA-B/intron/	pLI=3.86e-05;oe_lof=0.53786	Carbamazepine response;Susceptibility to severe cutaneous adverse reaction;Carbamazepine hypersensitivity;Abacavir hypersensitivity;Spondyloarthropathy, susceptibility to, 1;Allopurinol response	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:59653965:A:G	1,0,0	-1	-1	-1	-1	-1	-1			64,172,152	0.421875,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:59661256:A:G	1,0,0	-1	-1	-1	-1	-1	-1			43,75,325	0.348837,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:59699319:G:A	1,0,0	-1	-1	-1	-1	-1	-1			10,17,32	0.6,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:61453399:G:A	2,1,1	-1	-1	-1	0.0228096	3	63			25,25,24	1,0.6,0.666667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:61463412:C:T	2,1,1	-1	-1	-1	0.00325851	0	9			32,37,25	1,0.459459,0.64				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:61510450:TTGA:T	2,1,1	-1	-1	-1	-1	-1	-1			24,33,24	1,0.454545,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:61510455:C:T	2,1,1	-1	-1	-1	-1	-1	-1			24,33,24	1,0.454545,0.541667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:61954927:C:T	2,1,1	-1	-1	-1	-1	-1	-1	KHDRBS2	50_intron	30,29,42	1,0.448276,0.452381	KHDRBS2/intron/	pLI=0.0385;oe_lof=0.30913		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:69640094:T:C	1,0,0	-1	-1	-1	-1	-1	-1			36,48,20	0.444444,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:89131458:C:CTG	2,1,1	-1	-1	-1	-1	-1	-1			34,33,28	1,0.454545,0.607143				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:103409249:C:A	2,1,1	0.00206641	1	314	0.00108617	0	3			43,42,37	1,0.547619,0.486486				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:103503309:GGTAC:G	2,1,1	-1	-1	-1	-1	-1	-1			23,44,34	1,0.545455,0.705882				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:103503314:T:A	2,1,1	-1	-1	-1	-1	-1	-1			23,45,34	1,0.533333,0.705882				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:110296158:G:C	1,0,0	-1	-1	-1	-1	-1	-1	METTL24	50_intron	46,37,32	0.521739,0,0	METTL24/intron/	pLI=1.09e-05;oe_lof=0.74545		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:122853742:C:A	2,1,1	-1	-1	-1	-1	-1	-1			29,28,24	1,0.5,0.541667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:122853744:AAAGTCTGT:A	2,1,1	-1	-1	-1	-1	-1	-1			29,29,24	1,0.448276,0.541667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:131961421:T:A	2,1,1	-1	-1	-1	0.0293266	4	81			39,40,36	1,0.475,0.444444				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:131999711:G:A	2,1,1	-1	-1	-1	-1	-1	-1			42,39,30	1,0.512821,0.466667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:132571671:G:T	2,1,1	0.000444499	0	65	-1	-1	-1			58,25,26	1,0.6,0.692308				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:142424170:C:T	2,1,1	-1	-1	-1	0.0181028	2	50	ADGRG6	50_intron	46,36,48	1,0.5,0.541667	ADGRG6/intron/;ADGRG6/non_coding/		Lethal congenital contracture syndrome 9	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:142424181:T:G	2,1,1	-1	-1	-1	0.019189	2	53	ADGRG6	50_intron	48,37,48	1,0.486486,0.541667	ADGRG6/intron/;ADGRG6/non_coding/		Lethal congenital contracture syndrome 9	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:159464949:C:T	2,1,1	0.00734831	1	1119	0.0025344	0	7			40,40,36	1,0.55,0.305556				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:167370790:G:C	1,0,0	-1	-1	-1	-1	-1	-1	TCP10L3	53_non_coding	24,32,40	0.208333,0,0	TCP10L3/non_coding/			
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr6:167371042:T:C	1,0,0	-1	-1	-1	0.000724113	0	2	TCP10L3	53_non_coding	24,31,35	0.208333,0,0	TCP10L3/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:4443709:C:A	2,1,1	1.04125e-05	0	1	-1	-1	-1			31,47,38	1,0.553191,0.447368				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:4589536:C:T	1,0,0	-1	-1	-1	-1	-1	-1			12,25,31	0.25,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:4590050:G:A	1,0,0	-1	-1	-1	-1	-1	-1			10,25,27	0.3,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:4590197:T:G	1,0,0	-1	-1	-1	0.000724113	0	2			10,25,28	0.3,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:4590390:C:T	1,0,0	-1	-1	-1	-1	-1	-1			10,23,28	0.3,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:5133080:C:A	2,1,1	-1	-1	-1	-1	-1	-1	ZNF890P	53_non_coding	31,38,35	1,0.578947,0.428571	ZNF890P/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:6879954:T:C	2,0,1	-1	-1	-1	-1	-1	-1	OR7E59P	53_non_coding	19,22,30	1,0,0.533333	OR7E59P/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:18985846:T:G	2,1,1	-1	-1	-1	0.0101376	1	28	HDAC9	50_intron	34,39,34	1,0.410256,0.529412	HDAC9/intron/;HDAC9/non_coding/	pLI=1;oe_lof=0.14235	Auriculocondylar syndrome 4	
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:23062996:G:T	2,1,1	4.15662e-05	0	6	-1	-1	-1			32,37,32	1,0.351351,0.4375				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:23966638:ATGCC:A	2,1,1	-1	-1	-1	-1	-1	-1			29,41,34	1,0.487805,0.441176				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:23966643:A:C	2,1,1	-1	-1	-1	-1	-1	-1			29,41,34	1,0.487805,0.441176				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:25404075:CACA:C	2,1,1	-1	-1	-1	-1	-1	-1			33,34,39	1,0.617647,0.410256				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:25404079:G:T	2,1,1	-1	-1	-1	-1	-1	-1			33,34,39	1,0.617647,0.410256				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:25404080:C:A	2,1,1	-1	-1	-1	-1	-1	-1			33,34,39	1,0.617647,0.410256				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:29762412:A:T	2,1,1	-1	-1	-1	-1	-1	-1			27,34,29	1,0.441176,0.482759				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:44907006:CTTTACATTAT:C	2,1,1	-1	-1	-1	-1	-1	-1			22,35,20	1,0.314286,0.6				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:44907018:G:A	2,1,1	-1	-1	-1	-1	-1	-1			22,35,21	1,0.314286,0.619048				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:45275816:T:TCTTTGAAAAG	2,1,1	-1	-1	-1	-1	-1	-1			45,36,23	1,0.583333,0.391304				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:45275818:G:GA	2,1,1	-1	-1	-1	-1	-1	-1			47,36,23	1,0.583333,0.391304				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:45275820:T:A	2,1,1	-1	-1	-1	-1	-1	-1			48,35,22	1,0.6,0.409091				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:48422112:G:A	2,1,1	1.3403e-05	0	2	-1	-1	-1	ABCA13	50_intron	39,44,33	1,0.454545,0.515152	ABCA13/intron/;ABCA13/non_coding/	pLI=8.78e-114;oe_lof=0.91534		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:48758068:C:G	2,1,1	0.00725228	2	1104	0.00144823	0	4			44,35,37	1,0.514286,0.513514				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:51406406:C:A	2,1,1	-1	-1	-1	0.0057929	1	16			36,29,28	1,0.482759,0.714286				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:54347762:T:TCTATCTAC	2,1,1	6.37105e-05	0	2	-1	-1	-1			42,52,27	1,0.480769,0.444444				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:54347766:C:T	2,1,1	0.00147769	0	222	-1	-1	-1			42,52,27	1,0.480769,0.444444				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:54348262:C:CTCTATCTA	2,1,1	-1	-1	-1	-1	-1	-1			41,51,28	1,0.470588,0.5				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:58990370:C:A	1,0,0	-1	-1	-1	-1	-1	-1			19,35,14	0.210526,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:83464208:G:T	1,0,0	6.58666e-06	0	1	-1	-1	-1	SEMA3E	50_intron	39,40,43	0.435897,0,0	SEMA3E/intron/;SEMA3E/non_coding/	pLI=8.71e-09;oe_lof=0.47163	Hypogonadotropic hypogonadism 7 with or without anosmia	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:87711207:T:C	1,0,0	1.31731e-05	0	2	-1	-1	-1	ABCB1;RUNDC3B	50_intron	27,22,24	0.407407,0,0	ABCB1/intron/;ABCB1/non_coding/;RUNDC3B/non_coding/	pLI=1.26e-05;oe_lof=0.32826;;pLI=0.000932;oe_lof=0.37053	Inflammatory bowel disease 13;Colchicine resistance	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:88386200:T:TGACTGCTGGGCCC	2,1,1	-1	-1	-1	-1	-1	-1			36,39,36	1,0.435897,0.638889				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:88386201:T:A	2,1,1	-1	-1	-1	-1	-1	-1			36,39,36	1,0.435897,0.638889				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:88487999:A:C	2,1,1	-1	-1	-1	-1	-1	-1			32,39,52	1,0.564103,0.519231				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:88488001:A:T	2,1,1	-1	-1	-1	-1	-1	-1			35,39,52	1,0.564103,0.519231				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:91253515:A:ATG	2,1,1	-1	-1	-1	-1	-1	-1			31,40,22	1,0.55,0.590909				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:91253518:T:G	2,1,1	-1	-1	-1	-1	-1	-1			32,40,22	1,0.55,0.590909				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:102879439:A:ATGTATG	1,0,0	-1	-1	-1	-1	-1	-1	FBXL13	50_intron	31,29,12	0.548387,0,0	FBXL13/intron/	pLI=2.09e-12;oe_lof=0.66788		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:108229749:C:G	1,0,0	-1	-1	-1	-1	-1	-1	NRCAM	50_intron	41,35,40	0.439024,0,0	NRCAM/intron/	pLI=0.0153;oe_lof=0.25797	Neurodevelopmental disorder with neuromuscular and skeletal abnormalities	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:115263541:C:T	2,1,1	-1	-1	-1	0.00398262	0	11			42,53,38	1,0.396226,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:133006466:C:CATAA	2,1,1	8.45776e-05	0	11	-1	-1	-1	CHCHD3	50_intron	39,55,37	1,0.454545,0.459459	CHCHD3/intron/;CHCHD3/non_coding/	pLI=0.0275;oe_lof=0.32465		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:136108134:A:T	2,1,1	-1	-1	-1	-1	-1	-1			29,48,33	1,0.416667,0.424242				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:144371015:C:T	2,1,1	-1	-1	-1	0.0278783	3	77	ARHGEF5	50_intron	31,24,26	1,0.416667,0.5	ARHGEF5/intron/	pLI=7.59e-14;oe_lof=0.70875		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:149176629:C:T	1,0,0	6.58094e-06	0	1	-1	-1	-1	ZNF398	50_intron	30,25,21	0.466667,0,0	ZNF398/intron/	pLI=0.146;oe_lof=0.25776		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:150039460:C:T	1,0,0	-1	-1	-1	-1	-1	-1			15,12,16	0.266667,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:151972504:A:ATCT	2,1,1	-1	-1	-1	-1	-1	-1	GALNTL5	50_intron	29,47,40	1,0.446809,0.45	GALNTL5/intron/;GALNTL5/non_coding/	pLI=3.59e-16;oe_lof=1.1506		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:151972505:C:T	2,1,1	6.59439e-06	0	1	-1	-1	-1	GALNTL5	50_intron	29,47,39	1,0.446809,0.461538	GALNTL5/intron/;GALNTL5/non_coding/	pLI=3.59e-16;oe_lof=1.1506		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:152559488:C:T	2,1,1	8.01635e-05	0	4	-1	-1	-1			24,35,28	1,0.571429,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:154657044:G:A	2,1,1	0.0025995	1	29	0.00181028	1	5	DPP6	50_intron	29,31,19	1,0.290323,0.526316	DPP6/intron/	pLI=0.34;oe_lof=0.22784	Ventricular fibrillation, paroxysmal familial, 2;Intellectual disability, autosomal dominant 33	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:157518696:C:G	2,1,1	5.93816e-05	0	9	-1	-1	-1			21,35,24	1,0.485714,0.416667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:159172021:G:A	2,1,1	-1	-1	-1	0.0177408	0	49			29,35,28	1,0.485714,0.464286				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:159237802:C:A	2,1,1	4.19147e-05	0	1	-1	-1	-1			30,37,37	1,0.540541,0.540541				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr7:159237806:AAAGTC:A	2,1,1	-1	-1	-1	-1	-1	-1			31,43,39	1,0.465116,0.487179				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:282936:C:T	2,1,1	-1	-1	-1	0.0083273	1	23			33,32,34	1,0.34375,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:1176604:G:C	2,1,1	-1	-1	-1	-1	-1	-1	DLGAP2	50_intron	29,37,27	1,0.459459,0.592593	DLGAP2/intron/;DLGAP2/non_coding/	pLI=1;oe_lof=0.076806		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:1561241:CTTTCCTTTATAA:C	2,1,1	-1	-1	-1	-1	-1	-1	DLGAP2	50_intron	38,23,28	1,0.652174,0.428571	DLGAP2/intron/	pLI=1;oe_lof=0.076806		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:1561256:T:A	2,1,1	-1	-1	-1	-1	-1	-1	DLGAP2	50_intron	38,23,28	1,0.652174,0.428571	DLGAP2/intron/	pLI=1;oe_lof=0.076806		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:1993533:C:T	2,1,1	-1	-1	-1	0.0173787	4	48	KBTBD11	50_intron	18,25,25	1,0.44,0.56	KBTBD11/intron/	pLI=0.0624;oe_lof=0.38895		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:4019461:C:T	2,1,1	-1	-1	-1	-1	-1	-1	CSMD1	50_intron	50,43,37	1,0.44186,0.378378	CSMD1/intron/	pLI=1;oe_lof=0.15269		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:4019462:C:G	2,1,1	-1	-1	-1	-1	-1	-1	CSMD1	50_intron	50,43,37	1,0.44186,0.378378	CSMD1/intron/	pLI=1;oe_lof=0.15269		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:6445362:G:A	1,0,0	-1	-1	-1	-1	-1	-1	MCPH1	14_missense	41,37,25	0.658537,0,0	MCPH1/missense/ENST00000519480;MCPH1/missense/ENST00000522905;MCPH1/missense/ENST00000344683	pLI=7.76e-30;oe_lof=1.1145	Microcephaly 1, primary, autosomal recessive	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:7092804:C:G	1,0,0	-1	-1	-1	-1	-1	-1	AF228730.5	53_non_coding	27,28,22	0.407407,0,0	AF228730.5/non_coding/			
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:7092838:G:C	1,0,0	-1	-1	-1	-1	-1	-1	AF228730.5	53_non_coding	26,31,21	0.384615,0,0	AF228730.5/non_coding/			
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:7093530:G:T	1,0,0	6.57877e-06	0	1	-1	-1	-1	AF228730.5	53_non_coding	27,31,22	0.37037,0,0	AF228730.5/non_coding/			
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:15544258:C:T	1,0,0	2.63082e-05	0	4	-1	-1	-1	TUSC3	50_intron	33,34,27	0.515152,0,0	TUSC3/non_coding/;TUSC3/intron/	pLI=3.46e-06;oe_lof=0.57165	Intellectual disability, autosomal recessive 7;Congenital disorder of glycosylation;Congenital disorder of glycosylation	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:16150834:A:G	1,0,0	-1	-1	-1	-1	-1	-1	MSR1	50_intron	40,34,32	0.55,0,0	MSR1/intron/	pLI=2.16e-20;oe_lof=1.2429	Barrett esophagus;Barrett esophagus	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:17437181:A:G	1,0,0	-1	-1	-1	-1	-1	-1			24,32,34	0.583333,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:29623694:A:C	2,1,1	1.49125e-05	0	1	-1	-1	-1			31,45,29	1,0.555556,0.586207				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:33309377:T:G	2,1,1	0.000294061	1	43	0.0057929	1	16			21,33,20	1,0.484848,0.65				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:33331199:G:GGGCCTGGT	2,1,1	-1	-1	-1	-1	-1	-1			27,30,22	1,0.533333,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:33331205:G:A	2,1,1	7.27292e-05	0	11	-1	-1	-1			28,30,23	1,0.533333,0.478261				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:33379991:G:T	2,1,1	-1	-1	-1	-1	-1	-1	FUT10	50_intron	30,26,25	1,0.615385,0.52	FUT10/intron/;FUT10/non_coding/	pLI=5.41e-09;oe_lof=0.71343		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:35152350:T:TTTGCATTTTGCAA	2,1,1	-1	-1	-1	-1	-1	-1			40,49,30	1,0.55102,0.6				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:35152351:G:A	2,1,1	-1	-1	-1	-1	-1	-1			43,50,30	1,0.56,0.6				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:35152353:A:G	2,1,1	-1	-1	-1	-1	-1	-1			43,50,30	1,0.54,0.6				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:40524846:C:CAAGA	2,1,1	-1	-1	-1	-1	-1	-1			40,37,32	1,0.432432,0.5625				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:40524848:G:A	2,1,1	-1	-1	-1	-1	-1	-1			41,36,33	1,0.444444,0.575758				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:44483583:A:T	1,0,0	-1	-1	-1	-1	-1	-1			19,14,7	0.263158,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:46228453:T:G	2,1,1	-1	-1	-1	-1	-1	-1			18,32,14	1,0.625,0.428571				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:68228972:G:A	2,1,1	-1	-1	-1	-1	-1	-1	PREX2	50_intron	38,44,39	1,0.409091,0.538462	PREX2/intron/	pLI=3.33e-16;oe_lof=0.47104		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:69090772:CTGCTAAAAAGCG:C	2,1,1	-1	-1	-1	-1	-1	-1			28,35,33	1,0.4,0.606061				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:69090785:G:C	2,1,1	-1	-1	-1	-1	-1	-1			28,34,33	1,0.411765,0.606061				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:75144981:T:A	2,1,1	-1	-1	-1	-1	-1	-1			44,33,36	1,0.545455,0.416667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:75144982:A:T	2,1,1	-1	-1	-1	-1	-1	-1			44,33,36	1,0.545455,0.416667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:75144983:T:G	2,1,1	-1	-1	-1	-1	-1	-1			44,33,36	1,0.545455,0.416667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:75559281:T:G	2,1,1	0.000484811	0	73	0.0148443	0	41	HNF4G	50_intron	49,34,35	1,0.5,0.571429	HNF4G/intron/	pLI=0.0707;oe_lof=0.28408		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:89430641:G:A	2,1,1	0.00332817	1	503	0.00181028	0	5			60,53,25	0.983333,0.679245,0.48				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:89482953:T:C	2,1,1	0.00334073	1	509	0.00181028	0	5			33,35,39	1,0.542857,0.358974				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:89538922:C:G	2,1,1	0.00607132	3	920	0.00434468	0	12			26,48,29	1,0.4375,0.551724				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:89542140:T:C	2,1,1	0.00561879	2	856	0.00362056	0	10			30,51,23	1,0.45098,0.521739				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:89585485:G:A	2,1,1	0.0033751	1	514	0.00181028	0	5			38,34,39	1,0.382353,0.461538				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:89800716:G:A	2,1,1	0.00314304	3	478	0.00217234	0	6			41,46,36	1,0.5,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:90962846:C:T	2,1,1	0.0063277	4	960	0.00362056	0	10	C8orf88	50_intron	51,43,30	1,0.581395,0.566667	C8orf88/intron/	pLI=0.435;oe_lof=0.18527		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:94266029:C:T	2,1,1	-1	-1	-1	-1	-1	-1			34,27,26	1,0.666667,0.423077				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:94959539:G:T	2,1,1	-1	-1	-1	-1	-1	-1	NDUFAF6	50_intron	34,35,21	1,0.542857,0.52381	NDUFAF6/intron/	pLI=9.07e-08;oe_lof=0.75313	Fanconi renotubular syndrome 5;Mitochondrial complex 1 deficiency, nuclear type 17	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:97004364:T:C	1,0,0	-1	-1	-1	-1	-1	-1	CPQ	50_intron	44,30,34	0.318182,0,0	CPQ/intron/	pLI=1.32e-14;oe_lof=1.0281		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:97765919:G:C	1,0,0	-1	-1	-1	-1	-1	-1			30,27,20	0.566667,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:97798024:C:CATTAGCTGA	2,1,1	-1	-1	-1	-1	-1	-1	LAPTM4B	50_intron	21,25,29	1,0.48,0.62069	LAPTM4B/intron/	pLI=4.28e-13;oe_lof=1.2481		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:97798027:A:T	2,1,1	-1	-1	-1	-1	-1	-1	LAPTM4B	50_intron	21,25,29	1,0.48,0.62069	LAPTM4B/intron/	pLI=4.28e-13;oe_lof=1.2481		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:98108808:C:T	2,1,1	1.70381e-05	0	1	-1	-1	-1	RIDA	50_intron	27,51,36	1,0.470588,0.444444	RIDA/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:98108809:T:A	2,1,1	-1	-1	-1	-1	-1	-1	RIDA	50_intron	27,51,36	1,0.470588,0.444444	RIDA/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:98108810:A:G	2,1,1	6.60397e-06	0	1	-1	-1	-1	RIDA	50_intron	27,51,36	1,0.470588,0.444444	RIDA/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:102042713:A:AGAGCCAGAG	2,1,1	-1	-1	-1	-1	-1	-1	NCALD	50_intron	43,34,32	1,0.441176,0.5625	NCALD/intron/;NCALD/non_coding/	pLI=0.893;oe_lof=0		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:102042716:C:G	2,1,1	6.66853e-06	0	1	-1	-1	-1	NCALD	50_intron	42,34,31	1,0.441176,0.548387	NCALD/intron/;NCALD/non_coding/	pLI=0.893;oe_lof=0		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:110052805:T:G	1,0,0	-1	-1	-1	-1	-1	-1			55,58,39	0.545455,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:115642261:T:C	2,1,1	0.000141741	0	21	-1	-1	-1	TRPS1	50_intron	43,42,20	1,0.47619,0.25	TRPS1/intron/	pLI=1;oe_lof=0.023333	Trichorhinophalangeal dysplasia type I;Trichorhinophalangeal syndrome, type III	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:136285183:C:A	2,1,1	0.000196402	0	10	-1	-1	-1			30,37,30	1,0.486486,0.366667				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:136820430:A:C	1,0,0	-1	-1	-1	-1	-1	-1			36,32,34	0.583333,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr8:139082924:A:AGTTCTTGAT	2,1,1	-1	-1	-1	-1	-1	-1			31,32,31	1,0.5,0.580645				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:708279:A:C	2,1,1	-1	-1	-1	0.00651702	0	18	KANK1	50_intron	33,39,34	1,0.461538,0.558824	KANK1/intron/;KANK1/non_coding/	pLI=7.98e-18;oe_lof=0.71248	Cerebral palsy, spastic quadriplegic, 2	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:3933064:C:G	1,0,0	-1	-1	-1	-1	-1	-1	GLIS3	50_intron	39,43,30	0.589744,0,0	GLIS3/intron/;GLIS3/non_coding/	pLI=5.6e-08;oe_lof=0.49621	Neonatal diabetes mellitus with congenital hypothyroidism	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:11835046:T:A	2,1,1	-1	-1	-1	-1	-1	-1			36,43,39	1,0.465116,0.461538				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:20256943:C:A	2,1,1	0.00011483	0	12	-1	-1	-1			28,38,33	1,0.526316,0.575758				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:24929740:T:A	2,1,1	0.00451492	4	687	0.00108617	0	3			53,49,33	1,0.571429,0.575758				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:25254604:G:A	1,0,0	-1	-1	-1	-1	-1	-1			36,40,24	0.472222,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:39829415:C:CCT	1,0,0	-1	-1	-1	-1	-1	-1	FGF7P3;BX664615.2	50_intron	33,38,25	0.454545,0,0	FGF7P3/non_coding/;BX664615.2/intron/			
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:39829416:T:C	1,0,0	-1	-1	-1	-1	-1	-1	FGF7P3;BX664615.2	50_intron	32,38,25	0.46875,0,0	FGF7P3/non_coding/;BX664615.2/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:40072488:G:A	2,1,0	-1	-1	-1	0.00470673	0	13	FGF7P3	53_non_coding	14,36,14	1,0.472222,0	FGF7P3/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:40089525:T:C	2,1,0	-1	-1	-1	-1	-1	-1	FGF7P3	53_non_coding	21,44,18	1,0.477273,0	FGF7P3/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:41176374:T:A	2,1,0	-1	-1	-1	0.0108617	1	30	FRG1HP;CBWD6	50_intron	16,51,18	1,0.568627,0	FRG1HP/non_coding/;CBWD6/intron/;CBWD6/non_coding/	pLI=9.83e-07;oe_lof=1.0369		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:41180882:T:G	2,1,0	-1	-1	-1	0.0209993	4	58	FRG1HP;CBWD6	50_intron	15,50,16	1,0.58,0	FRG1HP/non_coding/;CBWD6/intron/;CBWD6/non_coding/	pLI=9.83e-07;oe_lof=1.0369		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:41344647:C:T	2,1,0	-1	-1	-1	0.0184649	3	51	AL354718.3	53_non_coding	25,36,12	1,0.444444,0	AL354718.3/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:41424425:G:A	2,1,0	-1	-1	-1	0.0188269	4	52			14,39,20	1,0.564103,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:41450792:C:T	2,1,0	-1	-1	-1	0.00470673	0	13			24,49,29	1,0.489796,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:64860345:G:A	2,1,0	-1	-1	-1	-1	-1	-1			23,40,16	1,0.425,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:64908295:G:T	2,1,0	-1	-1	-1	0.00687907	0	19			14,47,17	1,0.531915,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:70451638:A:C	2,1,1	0.000730975	0	111	0.00398262	0	11			28,45,30	1,0.466667,0.5				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:76477467:A:T	1,0,0	-1	-1	-1	-1	-1	-1	GCNT1	50_intron	34,36,34	0.558824,0,0	GCNT1/non_coding/;GCNT1/intron/	pLI=0.00333;oe_lof=0.46582		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:90181805:G:A	1,0,0	-1	-1	-1	-1	-1	-1			33,27,29	0.424242,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:99309649:T:G	1,0,0	-1	-1	-1	-1	-1	-1			41,33,27	0.560976,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:110167478:T:TTGATGCC	2,1,1	-1	-1	-1	-1	-1	-1	PALM2AKAP2	50_intron	28,35,25	1,0.485714,0.56	PALM2AKAP2/intron/;PALM2AKAP2/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:110167479:C:A	2,1,1	-1	-1	-1	-1	-1	-1	PALM2AKAP2	50_intron	29,35,25	1,0.485714,0.56	PALM2AKAP2/intron/;PALM2AKAP2/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:131760920:G:T	2,1,1	-1	-1	-1	-1	-1	-1			29,33,27	1,0.575758,0.592593				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr9:136078197:C:T	1,0,0	-1	-1	-1	-1	-1	-1	NACC2	50_intron	24,21,12	0.416667,0,0	NACC2/intron/	pLI=0.315;oe_lof=0.23948		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:3120379:G:T	2,1,1	-1	-1	-1	-1	-1	-1	PFKP	50_intron	24,26,31	1,0.5,0.290323	PFKP/intron/	pLI=8.83e-25;oe_lof=0.88579		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:7476675:T:A	2,1,1	0.000119111	0	8	-1	-1	-1			22,35,33	1,0.542857,0.424242				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:12838654:T:C	2,1,1	0.00050769	0	75	0.00543085	0	15			27,23,37	1,0.521739,0.378378				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:13077638:A:C	2,1,1	-1	-1	-1	-1	-1	-1	CCDC3	50_intron	29,42,29	1,0.5,0.551724	CCDC3/intron/	pLI=0.00487;oe_lof=0.51734		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:13077639:C:T	2,1,1	0.011391	0	123	-1	-1	-1	CCDC3	50_intron	30,42,29	1,0.5,0.551724	CCDC3/intron/	pLI=0.00487;oe_lof=0.51734		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:13077640:A:G	2,1,1	0.000814516	0	123	-1	-1	-1	CCDC3	50_intron	30,42,29	1,0.5,0.551724	CCDC3/intron/	pLI=0.00487;oe_lof=0.51734		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:13077641:G:A	2,1,1	-1	-1	-1	-1	-1	-1	CCDC3	50_intron	30,41,29	1,0.512195,0.551724	CCDC3/intron/	pLI=0.00487;oe_lof=0.51734		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581552:G:T	1,0,0	-1	-1	-1	-1	-1	-1			16,11,29	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581555:G:C	1,0,0	-1	-1	-1	-1	-1	-1			16,11,29	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581566:A:G	1,0,0	-1	-1	-1	-1	-1	-1			16,11,29	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581579:A:C	1,0,0	-1	-1	-1	-1	-1	-1			16,11,29	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581588:T:C	1,0,0	-1	-1	-1	-1	-1	-1			16,11,29	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581615:A:G	1,0,0	-1	-1	-1	-1	-1	-1			16,7,28	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581617:T:C	1,0,0	-1	-1	-1	-1	-1	-1			16,11,28	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581668:A:G	1,0,0	-1	-1	-1	-1	-1	-1			16,11,28	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581712:C:A	1,0,0	-1	-1	-1	-1	-1	-1			14,11,27	0.214286,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581719:G:T	1,0,0	-1	-1	-1	-1	-1	-1			16,11,28	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581760:G:T	1,0,0	-1	-1	-1	-1	-1	-1			16,11,28	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581761:A:T	1,0,0	-1	-1	-1	-1	-1	-1			16,11,27	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581901:G:C	1,0,0	-1	-1	-1	0.00108617	0	3			15,11,26	0.266667,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581937:C:T	1,0,0	-1	-1	-1	-1	-1	-1			16,11,29	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39581954:C:A	1,0,0	-1	-1	-1	0.00144823	2	4			15,9,29	0.266667,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39582025:T:C	1,0,0	-1	-1	-1	0.00108617	1	3			16,11,29	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39582092:C:T	1,0,0	-1	-1	-1	0.00108617	1	3			16,11,28	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39582423:T:G	1,0,0	0.000917431	2	4	-1	-1	-1			16,11,28	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39582455:A:G	1,0,0	-1	-1	-1	-1	-1	-1			16,9,28	0.3125,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39584672:G:C	1,0,0	-1	-1	-1	-1	-1	-1			11,7,21	0.454545,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:39584695:G:T	1,0,0	-1	-1	-1	-1	-1	-1			11,7,21	0.454545,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:40329500:T:C	1,0,0	-1	-1	-1	-1	-1	-1			7,8,395	0.571429,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:40334815:A:T	1,0,0	-1	-1	-1	-1	-1	-1			12,11,138	0.5,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:41550708:G:A	1,0,0	-1	-1	-1	0.000724113	0	2			35,41,18	0.228571,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:41913012:T:G	1,0,0	-1	-1	-1	-1	-1	-1			150,196,124	0.213333,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:46716102:A:AGAGGAGAAAC	1,0,0	-1	-1	-1	-1	-1	-1			56,64,40	0.357143,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:46813073:C:T	2,1,1	-1	-1	-1	0.0199131	4	55			29,27,29	1,0.481481,0.344828				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:51285195:A:T	2,1,1	0.00929309	4	1409	0.00687907	0	19	PRKG1	50_intron	31,42,28	1,0.52381,0.357143	PRKG1/intron/	pLI=0.999;oe_lof=0.10277	Aortic aneurysm, familial thoracic 8	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:57832858:G:C	2,1,1	0.00159631	0	243	0.000724113	0	2			44,50,35	1,0.36,0.457143				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:58251483:ATG:A	2,1,1	-1	-1	-1	-1	-1	-1	IPMK	50_intron	34,32,38	1,0.46875,0.631579	IPMK/intron/	pLI=0.963;oe_lof=0.10497		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:58251487:C:T	2,1,1	-1	-1	-1	-1	-1	-1	IPMK	50_intron	34,33,38	1,0.484848,0.631579	IPMK/intron/	pLI=0.963;oe_lof=0.10497		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:58397885:G:A	2,1,1	0.00144889	0	218	0.000724113	0	2	TFAM	36_3_prime_utr	32,37,26	1,0.540541,0.5	TFAM/3_prime_utr/ENST00000487519	pLI=0.173;oe_lof=0.26657	Mitochondrial DNA depletion syndrome 15 (hepatocerebral type)	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:58441566:C:A	2,1,1	0.00142626	0	217	0.000724113	0	2			38,45,38	1,0.511111,0.552632				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:59238972:G:T	2,1,1	0.00141501	2	215	-1	-1	-1	PHYHIPL	50_intron	47,42,29	1,0.452381,0.37931	PHYHIPL/intron/	pLI=0.821;oe_lof=0.13847		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:59318554:A:G	2,1,1	0.00679651	4	1035	0.00434468	0	12	FAM13C	50_intron	36,35,30	1,0.485714,0.533333	FAM13C/intron/;FAM13C/non_coding/	pLI=5.81e-05;oe_lof=0.39639		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:59375359:C:T	2,1,1	0.0021158	3	322	0.00108617	0	3			51,44,35	1,0.454545,0.6				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:59525874:CT:C	2,1,1	0.00161504	3	246	0.000724113	0	2			29,30,20	1,0.266667,0.6				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:64628436:A:T	2,1,1	0.000983464	0	59	0.000724113	0	2			35,36,42	1,0.555556,0.428571				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:69889710:CAGCTTACT:C	2,1,1	-1	-1	-1	-1	-1	-1	COL13A1	50_intron	28,30,19	1,0.6,0.526316	COL13A1/intron/;COL13A1/non_coding/	pLI=3.74e-14;oe_lof=0.55782	Congenital myasthenic syndrome 19	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:69889719:G:T	2,1,1	-1	-1	-1	-1	-1	-1	COL13A1	50_intron	28,30,19	1,0.6,0.526316	COL13A1/intron/;COL13A1/non_coding/	pLI=3.74e-14;oe_lof=0.55782	Congenital myasthenic syndrome 19	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:73410916:A:G	2,1,1	0.00105048	0	160	-1	-1	-1	ANXA7	50_intron	34,31,33	1,0.354839,0.454545	ANXA7/intron/;ANXA7/non_coding/	pLI=8.58e-10;oe_lof=0.63772		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:73527324:C:T	2,1,1	0.00127096	0	193	-1	-1	-1	USP54	50_intron	32,44,26	1,0.545455,0.538462	USP54/intron/;USP54/non_coding/	pLI=3.39e-11;oe_lof=0.40927		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:73760396:T:G	2,1,1	0.0029082	1	443	0.00217234	0	6	SEC24C	50_intron	44,34,21	1,0.676471,0.47619	SEC24C/intron/	pLI=1;oe_lof=0.076008		0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:73773908:G:A	2,1,1	0.00142407	1	217	0.000724113	0	2	FUT11	50_intron	33,39,26	1,0.512821,0.538462	FUT11/intron/;FUT11/non_coding/	pLI=1.76e-06;oe_lof=0.70278		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:73931183:C:T	2,1,1	0.00752344	3	1146	0.00615496	0	17			35,42,28	1,0.52381,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:83454314:C:A	2,1,1	-1	-1	-1	-1	-1	-1			39,46,39	1,0.543478,0.410256				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:83464579:G:GAAAC	2,1,1	2.80505e-05	0	1	-1	-1	-1			37,42,38	1,0.452381,0.368421				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:83464592:C:A	2,1,1	5.28129e-05	0	8	0.00181028	0	5			40,45,38	1,0.488889,0.394737				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:87676546:T:TAACTC	2,1,1	-1	-1	-1	-1	-1	-1	PAPSS2	50_intron	32,45,32	1,0.488889,0.53125	PAPSS2/intron/;PAPSS2/non_coding/	pLI=1.97e-10;oe_lof=0.65754	Spondyloepimetaphyseal dysplasia, PAPSS2 type	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:96059594:A:G	2,1,1	-1	-1	-1	-1	-1	-1	CCNJ	36_3_prime_utr	45,37,36	1,0.513514,0.583333	CCNJ/3_prime_utr/ENST00000265992;CCNJ/3_prime_utr/ENST00000465148	pLI=0.998;oe_lof=0		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:97626404:C:A	2,1,1	0.000845813	0	102	-1	-1	-1	AL355315.1	50_intron	23,35,29	1,0.628571,0.482759	AL355315.1/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:114989673:A:C	2,1,1	0.004748	4	413	0.00289645	0	8			27,37,19	1,0.540541,0.368421				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:116256964:CGAGAGAGCAGA:C	2,1,1	-1	-1	-1	-1	-1	-1	GFRA1	50_intron	37,27,34	1,0.481481,0.617647	GFRA1/intron/	pLI=0.117;oe_lof=0.2653	Renal hypodysplasia/aplasia 4	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:116256977:G:C	2,1,1	-1	-1	-1	-1	-1	-1	GFRA1	50_intron	37,27,34	1,0.481481,0.617647	GFRA1/intron/	pLI=0.117;oe_lof=0.2653	Renal hypodysplasia/aplasia 4	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:123959689:A:AATTC	2,1,1	-1	-1	-1	-1	-1	-1			32,30,34	1,0.566667,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:123959691:G:T	2,1,1	-1	-1	-1	-1	-1	-1			33,30,33	1,0.566667,0.515152				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:123959692:A:C	2,1,1	-1	-1	-1	-1	-1	-1			32,30,34	1,0.566667,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:127476889:G:GAAATA	2,1,1	-1	-1	-1	-1	-1	-1			37,37,34	1,0.459459,0.558824				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:127476890:T:G	2,1,1	6.60118e-06	0	1	-1	-1	-1			38,38,34	1,0.473684,0.558824				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:129618768:T:TCAA	2,1,1	-1	-1	-1	-1	-1	-1	MGMT	50_intron	40,38,31	1,0.315789,0.483871	MGMT/intron/	pLI=1.18e-07;oe_lof=1.1237		0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:129618770:T:A	2,1,1	3.87747e-05	0	2	-1	-1	-1	MGMT	50_intron	40,38,30	1,0.315789,0.5	MGMT/intron/	pLI=1.18e-07;oe_lof=1.1237		0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr10:129618771:T:TAATGCTATATTCAATATAAATATATTGCTATATTCAATTGAAACTGGGA	2,1,1	-1	-1	-1	-1	-1	-1	MGMT	50_intron	38,38,29	1,0.315789,0.482759	MGMT/intron/	pLI=1.18e-07;oe_lof=1.1237		0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:3223408:G:A	1,0,0	-1	-1	-1	-1	-1	-1			22,20,21	0.318182,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:4443587:A:G	2,1,1	-1	-1	-1	0.0137581	0	38	OR52K3P	53_non_coding	31,41,34	1,0.560976,0.294118	OR52K3P/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:5670784:A:AGC	2,1,1	-1	-1	-1	-1	-1	-1	AC104389.5;TRIM5	50_intron	38,28,27	1,0.535714,0.333333	AC104389.5/intron/;TRIM5/intron/;TRIM5/non_coding/	pLI=5.97e-05;oe_lof=0.58049		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:5670785:C:T	2,1,1	-1	-1	-1	-1	-1	-1	AC104389.5;TRIM5	50_intron	38,29,27	1,0.517241,0.333333	AC104389.5/intron/;TRIM5/intron/;TRIM5/non_coding/	pLI=5.97e-05;oe_lof=0.58049		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:14251237:C:T	2,1,1	0.00544185	2	829	0.00615496	0	17	SPON1	50_intron	36,33,29	1,0.515152,0.586207	SPON1/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:14379293:G:A	2,1,1	0.00549646	2	836	0.0057929	0	16			25,32,30	1,0.5625,0.4				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:14483328:C:T	2,1,1	0.00442414	2	672	0.00434468	0	12	COPB1	50_intron	37,42,36	1,0.595238,0.5	COPB1/intron/	pLI=1;oe_lof=0.10121	Baralle-Macken syndrome	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:14493453:C:A	2,1,1	0.00392103	2	597	0.00325851	0	9	COPB1	50_intron	37,42,46	1,0.571429,0.5	COPB1/intron/	pLI=1;oe_lof=0.10121	Baralle-Macken syndrome	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:14506787:G:A	2,1,1	0.00545185	2	830	0.00651702	0	18	AC018523.2;PSMA1	50_intron	33,25,40	1,0.48,0.6	AC018523.2/intron/;PSMA1/non_coding/;PSMA1/intron/	pLI=0.983;oe_lof=0.059768		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:14531852:G:C	2,1,1	0.005414	2	824	0.00506879	0	14	PSMA1	50_intron	34,27,32	1,0.592593,0.375	PSMA1/intron/	pLI=0.983;oe_lof=0.059768		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:14620276:T:C	2,1,1	0.00435239	2	663	0.00434468	0	12	PSMA1	50_intron	29,37,29	1,0.486486,0.413793	PSMA1/intron/;PSMA1/non_coding/	pLI=0.983;oe_lof=0.059768		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:14647926:G:GTT	2,1,1	0.00597306	3	815	0.00543085	0	15	PDE3B	50_intron	17,26,14	1,0.346154,0.5	PDE3B/intron/;PDE3B/non_coding/	pLI=5.72e-05;oe_lof=0.33736		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:14697758:A:G	2,1,1	0.00435332	2	661	0.00434468	0	12	PDE3B	50_intron	39,53,37	1,0.509434,0.567568	PDE3B/intron/;PDE3B/non_coding/	pLI=5.72e-05;oe_lof=0.33736		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:14716158:C:T	2,1,1	0.00386359	2	588	0.00289645	0	8	PDE3B	50_intron	28,24,23	1,0.5,0.608696	PDE3B/intron/;PDE3B/non_coding/	pLI=5.72e-05;oe_lof=0.33736		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:14717205:A:C	2,1,1	-1	-1	-1	0.0133961	0	37	PDE3B	50_intron	30,26,24	1,0.5,0.583333	PDE3B/intron/;PDE3B/non_coding/	pLI=5.72e-05;oe_lof=0.33736		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:16483913:A:G	1,0,0	-1	-1	-1	-1	-1	-1	SOX6	50_intron	46,42,32	0.586957,0,0	SOX6/intron/;SOX6/non_coding/	pLI=1;oe_lof=0.093871	Tolchin-Le Caignec syndrome	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:21348101:T:TAG	2,1,1	-1	-1	-1	-1	-1	-1	NELL1	50_intron	33,35,32	1,0.628571,0.46875	NELL1/intron/;NELL1/non_coding/	pLI=8.67e-12;oe_lof=0.54063		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:21697973:A:AATTGTAT	1,0,0	-1	-1	-1	-1	-1	-1			24,10,30	0.541667,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:40739009:G:A	2,1,1	0.00305301	0	163	-1	-1	-1	LRRC4C	50_intron	33,42,30	1,0.595238,0.5	LRRC4C/intron/;LRRC4C/non_coding/	pLI=0.972;oe_lof=0.064608		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:40739035:G:A	2,1,1	3.48189e-05	0	2	-1	-1	-1	LRRC4C	50_intron	34,44,32	1,0.568182,0.4375	LRRC4C/intron/;LRRC4C/non_coding/	pLI=0.972;oe_lof=0.064608		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:52283843:C:G	1,0,0	-1	-1	-1	-1	-1	-1			17,14,30	0.235294,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:53489515:C:T	1,0,0	-1	-1	-1	-1	-1	-1			25,55,11	0.2,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:71668146:T:C	1,0,0	-1	-1	-1	-1	-1	-1			32,36,31	0.46875,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:92038936:C:CCTGAAAG	2,1,1	-1	-1	-1	-1	-1	-1			39,40,30	1,0.425,0.6				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:92038939:T:A	2,1,1	6.59222e-06	0	1	-1	-1	-1			39,40,30	1,0.425,0.6				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:95795051:G:A	1,0,0	-1	-1	-1	-1	-1	-1	CEP57	50_intron	36,31,29	0.527778,0,0	CEP57/intron/	pLI=0.0727;oe_lof=0.26651	Mosaic variegated aneuploidy syndrome 2	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:107269659:ACTT:A	2,1,1	-1	-1	-1	-1	-1	-1			45,36,32	1,0.5,0.53125				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:117263318:T:TCTCC	2,1,1	-1	-1	-1	-1	-1	-1	RNF214	50_intron	32,39,32	1,0.461538,0.59375	RNF214/intron/	pLI=0.91;oe_lof=0.17554		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:117263319:T:A	2,1,1	-1	-1	-1	-1	-1	-1	RNF214	50_intron	32,41,32	1,0.487805,0.59375	RNF214/intron/	pLI=0.91;oe_lof=0.17554		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:134287064:C:G	2,1,1	-1	-1	-1	0.00941347	0	26	GLB1L3	50_intron	38,34,29	1,0.382353,0.655172	GLB1L3/intron/	pLI=6.73e-23;oe_lof=0.91623		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr11:134408724:T:C	2,1,1	-1	-1	-1	0.0224475	1	62	B3GAT1	50_intron	17,27,17	1,0.555556,0.411765	B3GAT1/intron/;B3GAT1/non_coding/	pLI=0.135;oe_lof=0.28093		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:10659176:T:C	1,0,0	-1	-1	-1	-1	-1	-1	STYK1	50_intron	39,37,33	0.589744,0,0	STYK1/intron/	pLI=9.1e-11;oe_lof=0.79959		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:18224196:CTACTAAGAGTTCTAAGA:C	2,1,1	-1	-1	-1	-1	-1	-1	RERGL	53_non_coding	36,53,48	1,0.433962,0.583333	RERGL/non_coding/	pLI=2.45e-10;oe_lof=1.1054		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:18224217:C:G	2,1,1	-1	-1	-1	-1	-1	-1	RERGL	53_non_coding	36,53,49	1,0.45283,0.571429	RERGL/non_coding/	pLI=2.45e-10;oe_lof=1.1054		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:37003084:C:T	1,0,0	-1	-1	-1	-1	-1	-1			8,20,7	0.625,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:41672926:G:GCTTC	2,1,1	9.71125e-05	0	3	-1	-1	-1			36,31,36	1,0.387097,0.638889				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:41672928:CGGGAAGCTCAAACTGGGTGGAGCCCACCACAGCTCAAGGA:C	2,1,1	-1	-1	-1	-1	-1	-1			36,31,35	1,0.387097,0.657143				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:41704882:A:T	2,1,1	0.00322495	0	97	0.00108617	0	3			39,52,36	1,0.557692,0.583333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:44768518:GTTC:G	2,1,1	-1	-1	-1	-1	-1	-1	NELL2	50_intron	36,57,36	1,0.45614,0.722222	NELL2/intron/;NELL2/non_coding/	pLI=1;oe_lof=0.13244		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:44768522:T:C	2,1,1	-1	-1	-1	-1	-1	-1	NELL2	50_intron	36,59,36	1,0.457627,0.722222	NELL2/intron/;NELL2/non_coding/	pLI=1;oe_lof=0.13244		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:54090956:TTGCACTGGGG:T	2,1,1	-1	-1	-1	-1	-1	-1			27,29,21	1,0.586207,0.47619				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:54090967:A:G	2,1,1	-1	-1	-1	-1	-1	-1			26,28,19	1,0.571429,0.526316				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:55916099:C:T	1,0,0	-1	-1	-1	-1	-1	-1	PYM1	50_intron	30,29,24	0.5,0,0	PYM1/intron/;PYM1/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:66010724:AAGAGC:A	2,1,1	-1	-1	-1	-1	-1	-1			36,33,24	1,0.545455,0.458333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:66010732:T:G	2,1,1	-1	-1	-1	-1	-1	-1			36,33,24	1,0.545455,0.458333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:66010733:G:C	2,1,1	-1	-1	-1	-1	-1	-1			36,33,24	1,0.545455,0.458333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:66493617:A:G	2,1,1	-1	-1	-1	-1	-1	-1	GRIP1	50_intron	26,48,33	1,0.625,0.454545	GRIP1/intron/	pLI=0.508;oe_lof=0.21998	Fraser syndrome 3	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:80282281:T:C	2,1,1	0.00593774	3	903	0.00506879	0	14	OTOGL	50_intron	47,40,36	1,0.55,0.444444	OTOGL/intron/	pLI=4.7e-52;oe_lof=0.76028	Autosomal recessive nonsyndromic hearing loss 84B	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:82810531:G:T	2,1,0	6.58085e-06	0	1	-1	-1	-1	TMTC2	50_intron	22,35,12	1,0.657143,0	TMTC2/non_coding/;TMTC2/intron/	pLI=0.0225;oe_lof=0.28117		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:86503499:T:TATATATATATATGAGTTCTGCTC	1,0,0	-1	-1	-1	0.00144823	0	4	MGAT4C	50_intron	22,37,26	0.227273,0,0	MGAT4C/intron/;MGAT4C/non_coding/	pLI=0.000662;oe_lof=0.46232		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:94867875:G:T	2,1,1	-1	-1	-1	-1	-1	-1			45,37,29	1,0.486486,0.655172				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:94867876:T:G	2,1,1	-1	-1	-1	-1	-1	-1			44,37,29	1,0.486486,0.689655				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:94867877:C:CCA	2,1,1	-1	-1	-1	-1	-1	-1			45,37,28	1,0.486486,0.714286				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:99250699:A:AGATAATTCATT	2,1,1	-1	-1	-1	-1	-1	-1	ANKS1B	50_intron	41,46,29	1,0.304348,0.517241	ANKS1B/intron/;ANKS1B/non_coding/	pLI=1;oe_lof=0.11454		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:99250700:T:C	2,1,1	-1	-1	-1	-1	-1	-1	ANKS1B	50_intron	42,47,29	1,0.319149,0.517241	ANKS1B/intron/;ANKS1B/non_coding/	pLI=1;oe_lof=0.11454		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:99250703:A:C	2,1,1	-1	-1	-1	-1	-1	-1	ANKS1B	50_intron	42,47,29	1,0.319149,0.517241	ANKS1B/intron/;ANKS1B/non_coding/	pLI=1;oe_lof=0.11454		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:108652845:T:TCACAGACCTAAGGGCACCA	2,1,1	-1	-1	-1	-1	-1	-1	CORO1C	50_intron	30,34,36	1,0.558824,0.722222	CORO1C/intron/;CORO1C/non_coding/	pLI=0.998;oe_lof=0.043951		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:108652848:G:A	2,1,1	-1	-1	-1	-1	-1	-1	CORO1C	50_intron	30,34,37	1,0.558824,0.72973	CORO1C/intron/;CORO1C/non_coding/	pLI=0.998;oe_lof=0.043951		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:108652852:G:GGCACTGA	2,1,1	-1	-1	-1	-1	-1	-1	CORO1C	50_intron	30,34,37	1,0.558824,0.72973	CORO1C/intron/;CORO1C/non_coding/	pLI=0.998;oe_lof=0.043951		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:112712904:C:CTCTTCT	1,0,0	-1	-1	-1	-1	-1	-1	RPH3A	50_intron	29,24,31	0.310345,0,0	RPH3A/intron/	pLI=0.00166;oe_lof=0.30321		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:114943990:A:G	1,0,0	6.57022e-06	0	1	-1	-1	-1			51,33,34	0.490196,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:117505462:A:T	2,1,1	-1	-1	-1	-1	-1	-1	KSR2	50_intron	31,40,39	1,0.425,0.538462	KSR2/intron/	pLI=1;oe_lof=0.041703		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:127740040:GGT:G	2,1,1	-1	-1	-1	-1	-1	-1			36,32,28	1,0.65625,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:130012740:T:A	2,1,1	-1	-1	-1	-1	-1	-1			30,33,30	1,0.727273,0.433333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr12:132234790:C:T	2,1,1	-1	-1	-1	0.0282404	1	78	GALNT9	50_intron	14,19,15	1,0.368421,0.6	GALNT9/intron/	pLI=0.00524;oe_lof=0.50828		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:24052059:CAGGGTTTGGCTTCT:C	2,1,1	-1	-1	-1	-1	-1	-1	AL359736.1;SPATA13	50_intron	27,34,25	1,0.617647,0.36	AL359736.1/intron/;SPATA13/intron/	pLI=0.323;oe_lof=0;;pLI=0.00264;oe_lof=0.29528		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:24052074:T:C	2,1,1	-1	-1	-1	-1	-1	-1	AL359736.1;SPATA13	50_intron	28,35,25	1,0.6,0.36	AL359736.1/intron/;SPATA13/intron/	pLI=0.323;oe_lof=0;;pLI=0.00264;oe_lof=0.29528		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:25004759:G:A	2,1,1	-1	-1	-1	0.0181028	1	50			25,44,35	1,0.522727,0.485714				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:36923157:C:CATATTT	2,1,1	9.87791e-06	0	1	-1	-1	-1			39,41,30	1,0.560976,0.433333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:36923158:C:G	2,1,1	9.35506e-06	0	1	-1	-1	-1			40,41,30	1,0.585366,0.433333				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:44904115:C:T	1,0,0	1.97322e-05	0	3	-1	-1	-1			31,32,35	0.548387,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:51714872:A:G	1,0,0	-1	-1	-1	-1	-1	-1	WDFY2	50_intron	20,28,35	0.45,0,0	WDFY2/intron/	pLI=1.52e-08;oe_lof=0.65454		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:62579278:T:C	1,0,0	-1	-1	-1	-1	-1	-1			38,38,32	0.605263,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:63534384:C:A	2,1,1	0.000208681	0	6	-1	-1	-1			37,54,37	1,0.574074,0.486486				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:66568582:G:GCCAAACTCCTTT	2,1,1	-1	-1	-1	-1	-1	-1	PCDH9	50_intron	31,56,28	1,0.482143,0.5	PCDH9/intron/	pLI=0.809;oe_lof=0.18832		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:66568583:G:T	2,1,1	-1	-1	-1	-1	-1	-1	PCDH9	50_intron	32,56,29	1,0.482143,0.517241	PCDH9/intron/	pLI=0.809;oe_lof=0.18832		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:66568584:A:T	2,1,1	-1	-1	-1	-1	-1	-1	PCDH9	50_intron	31,56,29	1,0.482143,0.517241	PCDH9/intron/	pLI=0.809;oe_lof=0.18832		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:66568585:T:G	2,1,1	-1	-1	-1	-1	-1	-1	PCDH9	50_intron	32,56,29	1,0.482143,0.517241	PCDH9/intron/	pLI=0.809;oe_lof=0.18832		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:68952053:T:C	1,0,0	-1	-1	-1	-1	-1	-1			40,40,25	0.35,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:73393526:T:TCA	2,1,1	-1	-1	-1	-1	-1	-1			33,46,38	1,0.369565,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:73393527:A:C	2,1,1	6.60476e-06	0	1	-1	-1	-1			33,46,38	1,0.369565,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:103877103:T:A	2,1,1	-1	-1	-1	-1	-1	-1			38,52,34	1,0.461538,0.588235				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:107976594:T:TTAATGGCTACAAA	2,1,1	-1	-1	-1	-1	-1	-1			40,43,39	1,0.418605,0.538462				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:107976595:G:A	2,1,1	-1	-1	-1	-1	-1	-1			40,44,40	1,0.431818,0.55				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:109449679:A:T	1,0,0	-1	-1	-1	-1	-1	-1			11,16,14	0.272727,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:109449680:T:TATATA	1,0,0	-1	-1	-1	-1	-1	-1			11,16,14	0.272727,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr13:113786541:T:C	2,1,1	0.00194221	0	105	0.00289645	0	8	TMEM255B	50_intron	23,27,8	1,0.518519,0.625	TMEM255B/intron/;TMEM255B/non_coding/	pLI=7.72e-12;oe_lof=1.1303		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:19302092:G:A	1,0,0	-1	-1	-1	-1	-1	-1	DUXAP10	53_non_coding	58,38,58	0.362069,0,0	DUXAP10/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:21910773:AGATATTC:A	2,1,1	-1	-1	-1	-1	-1	-1			30,45,33	1,0.444444,0.454545				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:21910781:T:A	2,1,1	-1	-1	-1	-1	-1	-1			30,46,33	1,0.434783,0.454545				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:25034902:G:A	2,1,1	0.00220727	1	336	0.00181028	0	5	STXBP6	50_intron	37,38,21	1,0.657895,0.52381	STXBP6/intron/	pLI=7.87e-05;oe_lof=0.65351		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:25096449:C:G	2,1,1	0.000111694	0	17	-1	-1	-1			40,50,37	1,0.44,0.621622				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:25096474:G:C	2,1,1	0.000111689	0	17	-1	-1	-1			40,50,38	1,0.44,0.631579				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:28585741:TACTGAA:T	2,1,1	-1	-1	-1	-1	-1	-1			47,44,36	1,0.431818,0.472222				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:28585748:C:T	2,1,1	-1	-1	-1	-1	-1	-1			47,44,36	1,0.431818,0.472222				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:31003818:C:T	2,1,1	0.000183403	0	13	-1	-1	-1	STRN3	50_intron	42,34,44	1,0.441176,0.522727	STRN3/intron/	pLI=0.829;oe_lof=0.19488		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:33715526:C:T	1,0,0	-1	-1	-1	-1	-1	-1	NPAS3	50_intron	28,33,37	0.5,0,0	NPAS3/intron/	pLI=1;oe_lof=0.081486		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:35391352:A:G	1,0,0	-1	-1	-1	-1	-1	-1			24,30,24	0.625,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:44553466:TTTCTAGATA:T	2,1,1	-1	-1	-1	-1	-1	-1			33,31,30	1,0.483871,0.433333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:44553477:A:G	2,1,1	-1	-1	-1	-1	-1	-1			33,31,30	1,0.483871,0.433333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:45871813:A:AAGTCACC	2,1,1	-1	-1	-1	-1	-1	-1			47,44,23	1,0.477273,0.608696				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:52822472:C:G	2,1,1	-1	-1	-1	-1	-1	-1			29,37,33	1,0.513514,0.515152				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:52822473:C:A	2,1,1	-1	-1	-1	-1	-1	-1			29,36,34	1,0.5,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:52822474:AATTTAGGGATTCCTT:A	2,1,1	-1	-1	-1	-1	-1	-1			29,37,34	1,0.513514,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:59496960:CTTCCGAA:C	2,1,1	-1	-1	-1	-1	-1	-1	JKAMP	50_intron	36,39,50	1,0.384615,0.38	JKAMP/intron/;JKAMP/non_coding/	pLI=0.0765;oe_lof=0.29508		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:59496968:G:A	2,1,1	-1	-1	-1	-1	-1	-1	JKAMP	50_intron	36,40,50	1,0.375,0.38	JKAMP/intron/;JKAMP/non_coding/	pLI=0.0765;oe_lof=0.29508		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:64927725:C:G	2,1,1	0.000274063	1	30	-1	-1	-1	CHURC1;CHURC1-FNTB	50_intron	22,28,25	1,0.392857,0.48	CHURC1/intron/;CHURC1-FNTB/intron/	pLI=2.09e-06;oe_lof=1.1748;;pLI=5.33e-05;oe_lof=0.42618		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:64967027:C:G	1,0,0	-1	-1	-1	-1	-1	-1	CHURC1-FNTB;RAB15	50_intron	30,28,19	0.466667,0,0	CHURC1-FNTB/intron/;RAB15/non_coding/	pLI=5.33e-05;oe_lof=0.42618;;pLI=0.00596;oe_lof=0.4173		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:106331685:C:CTGTTTTCA	2,1,1	-1	-1	-1	-1	-1	-1			22,25,43	1,0.6,0.325581				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:106340924:G:T	2,1,1	0.00794374	0	366	0.000724113	0	2			24,41,52	1,0.463415,0.519231				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:106340926:ATGGTGTGAGCT:A	2,1,1	-1	-1	-1	-1	-1	-1			24,41,53	1,0.463415,0.509434				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr14:106379255:C:T	1,0,0	-1	-1	-1	-1	-1	-1			35,42,23	0.571429,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:17890120:G:T	1,0,0	-1	-1	-1	-1	-1	-1			12,21,19	0.333333,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:22063965:A:C	2,0,1	-1	-1	-1	0.0177408	3	49	AC134980.3	50_intron	12,16,13	1,0,0.384615	AC134980.3/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:23840605:T:C	2,1,1	0.00543072	4	479	0.00398262	0	11			53,43,33	1,0.488372,0.333333				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:31462585:T:TTTC	2,1,1	2.35455e-05	0	2	-1	-1	-1			30,35,26	1,0.4,0.538462				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:31462587:C:T	2,1,1	-1	-1	-1	-1	-1	-1			31,35,26	1,0.4,0.576923				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:32319128:G:A	2,1,1	-1	-1	-1	0.0217234	3	60			35,49,43	1,0.387755,0.581395				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:32319130:C:G	2,1,1	-1	-1	-1	0.0224475	3	62			35,49,43	1,0.387755,0.581395				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:35871053:C:T	2,1,1	0.0194668	3	1142	0.0025344	0	7			40,27,42	1,0.62963,0.619048				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:45218321:G:T	2,1,1	0.00168534	0	117	-1	-1	-1			30,40,28	1,0.5,0.392857				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:45690119:C:CCACCCAGGCTGGAGTG	2,1,1	-1	-1	-1	-1	-1	-1	SQOR	50_intron	34,31,24	1,0.483871,0.416667	SQOR/intron/		Sulfide quinone oxidoreductase deficiency	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:45690121:C:A	2,1,1	-1	-1	-1	-1	-1	-1	SQOR	50_intron	34,32,24	1,0.5,0.416667	SQOR/intron/		Sulfide quinone oxidoreductase deficiency	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:57594351:A:G	1,0,0	-1	-1	-1	-1	-1	-1	MYZAP;GCOM1	50_intron	25,32,21	0.4,0,0	MYZAP/intron/;GCOM1/intron/	pLI=4.41e-17;oe_lof=0.89657;;pLI=2.39e-19;oe_lof=0.88573		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:82403156:A:G	2,1,1	-1	-1	-1	-1	-1	-1	UBE2Q2P2	53_non_coding	29,42,33	1,0.52381,0.454545	UBE2Q2P2/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:82403157:G:C	2,1,1	-1	-1	-1	-1	-1	-1	UBE2Q2P2	53_non_coding	29,42,33	1,0.52381,0.454545	UBE2Q2P2/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:82403158:C:T	2,1,1	5.28039e-05	0	8	-1	-1	-1	UBE2Q2P2	53_non_coding	29,42,33	1,0.52381,0.454545	UBE2Q2P2/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:89138864:TTC:T	2,1,1	-1	-1	-1	-1	-1	-1	ABHD2	50_intron	31,29,24	1,0.310345,0.541667	ABHD2/intron/;ABHD2/non_coding/	pLI=0.682;oe_lof=0.18848		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:89221931:C:G	2,1,1	0.00348307	2	493	0.00289645	0	8			32,28,36	1,0.464286,0.472222				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:89254795:A:G	2,1,1	0.00322509	1	491	0.0025344	0	7	FANCI	50_intron	24,40,26	1,0.425,0.461538	FANCI/intron/;FANCI/non_coding/	pLI=8.91e-37;oe_lof=0.82993	Fanconi anemia complementation group I	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:89498041:A:G	2,1,1	0.00879075	2	459	0.00325851	0	9			16,32,20	1,0.65625,0.4				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:90869619:C:CCAAAGGCA	2,1,1	-1	-1	-1	-1	-1	-1	FURIN	50_intron	24,31,23	1,0.419355,0.521739	FURIN/intron/	pLI=1;oe_lof=0.073795		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:90869620:A:G	2,1,1	-1	-1	-1	-1	-1	-1	FURIN	50_intron	24,31,24	1,0.419355,0.541667	FURIN/intron/	pLI=1;oe_lof=0.073795		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr15:91278639:A:ACGGCAGT	2,1,1	-1	-1	-1	-1	-1	-1	SV2B	50_intron	28,47,31	1,0.510638,0.580645	SV2B/intron/	pLI=5.7e-05;oe_lof=0.39702		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:8105954:CAACA:C	2,1,1	0.000222245	0	13	-1	-1	-1			39,39,33	1,0.307692,0.454545				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:9153504:GTGTA:G	2,1,1	-1	-1	-1	-1	-1	-1			25,32,21	1,0.375,0.380952				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:9153510:T:A	2,1,1	1.43275e-05	0	1	-1	-1	-1			25,32,20	1,0.375,0.4				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:24841327:G:A	2,1,1	0.000387224	0	58	-1	-1	-1			18,23,24	1,0.347826,0.541667				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:38196293:T:G	1,0,0	-1	-1	-1	-1	-1	-1			7,7,7	0.285714,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:48539717:C:A	1,0,0	-1	-1	-1	-1	-1	-1	N4BP1	36_3_prime_utr	25,27,31	0.4,0,0	N4BP1/3_prime_utr/ENST00000262384	pLI=0.621;oe_lof=0.20462		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:52779052:C:A	2,1,1	-1	-1	-1	0.0238957	1	66			40,43,41	1,0.465116,0.512195				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:58665088:A:G	2,1,1	0.00738308	4	1124	0.00434468	0	12			30,29,26	1,0.413793,0.384615				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:65571093:T:C	2,1,1	0.00898294	4	1366	0.00760319	0	21			37,38,33	1,0.447368,0.424242				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:65765621:T:A	2,1,1	0.0081835	3	1238	0.00543085	0	15			27,31,41	1,0.290323,0.585366				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:77177903:A:G	2,1,1	-1	-1	-1	-1	-1	-1			45,36,25	1,0.444444,0.44				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr16:82579001:G:A	2,1,1	0.00419064	4	638	0.00362056	0	10			28,43,29	1,0.44186,0.448276				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:1226718:T:C	2,1,1	4.19287e-05	0	2	-1	-1	-1	ABR	50_intron	18,21,18	1,0.52381,0.444444	ABR/intron/	pLI=0.627;oe_lof=0.2126		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:9228946:GTGAC:G	2,1,1	-1	-1	-1	-1	-1	-1	NTN1	50_intron	18,20,29	1,0.35,0.413793	NTN1/intron/	pLI=0.997;oe_lof=0.046785	Mirror movements 4	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:9228951:T:A	2,1,1	-1	-1	-1	-1	-1	-1	NTN1	50_intron	18,20,29	1,0.35,0.413793	NTN1/intron/	pLI=0.997;oe_lof=0.046785	Mirror movements 4	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:9230454:C:CCT	2,1,1	0.000120919	0	1	-1	-1	-1	NTN1	50_intron	20,17,26	1,0.470588,0.384615	NTN1/intron/	pLI=0.997;oe_lof=0.046785	Mirror movements 4	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:9230458:C:T	2,1,1	7.95418e-05	0	12	-1	-1	-1	NTN1	50_intron	21,16,26	1,0.5,0.423077	NTN1/intron/	pLI=0.997;oe_lof=0.046785	Mirror movements 4	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:12410574:T:C	2,1,1	9.73277e-05	0	14	-1	-1	-1			39,39,36	1,0.564103,0.611111				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:31172373:T:C	2,1,1	0.000185132	0	27	-1	-1	-1	NF1	50_intron	54,57,35	1,0.315789,0.542857	NF1/intron/	pLI=0.902;oe_lof=0.21503	Neurofibromatosis-Noonan syndrome;Juvenile myelomonocytic leukemia;Juvenile myelomonocytic leukemia;Neurofibromatosis, type 1;Neurofibromatosis, familial spinal;Café-au-lait macules with pulmonary stenosis	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:32959747:T:C	2,1,1	-1	-1	-1	-1	-1	-1			30,32,32	1,0.46875,0.46875				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:32997344:T:TGTGTAGAG	2,1,1	-1	-1	-1	0.025344	0	70	SPACA3	50_intron	24,19,25	1,0.526316,0.6	SPACA3/intron/;SPACA3/non_coding/	pLI=0.000115;oe_lof=0.7423		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:33002418:A:T	2,1,1	-1	-1	-1	-1	-1	-1			22,19,21	1,0.526316,0.714286				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:33282599:C:T	2,1,1	0.00543628	4	827	0.00651702	0	18	ASIC2	50_intron	32,39,34	1,0.666667,0.529412	ASIC2/intron/;ASIC2/non_coding/	pLI=0.999;oe_lof=0.040373		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:33325143:A:T	2,1,1	0.00526032	4	801	0.00615496	0	17	ASIC2	50_intron	45,40,25	1,0.475,0.56	ASIC2/intron/	pLI=0.999;oe_lof=0.040373		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:33355539:GC:G	2,1,1	0.0052084	4	793	0.00687907	1	19	ASIC2	50_intron	34,38,32	1,0.421053,0.5625	ASIC2/intron/	pLI=0.999;oe_lof=0.040373		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:33386698:G:A	2,1,1	0.000544905	0	83	-1	-1	-1	ASIC2	50_intron	31,41,28	1,0.439024,0.535714	ASIC2/intron/	pLI=0.999;oe_lof=0.040373		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:41805306:A:C	2,1,1	0.000112667	0	14	0.00905141	0	25	P3H4	50_intron	21,22,17	1,0.681818,0.470588	P3H4/intron/;P3H4/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:44609728:A:ATGCCTGTAATCTC	2,1,1	-1	-1	-1	-1	-1	-1			25,38,16	1,0.447368,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:44609729:C:A	2,1,1	-1	-1	-1	-1	-1	-1			25,38,16	1,0.447368,0.5				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:47529950:A:T	2,1,1	0.00215045	4	100	0.00506879	0	14	NPEPPS	50_intron	16,22,25	1,0.545455,0.48	NPEPPS/intron/;NPEPPS/non_coding/	pLI=1;oe_lof=0		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:73785812:A:T	1,0,0	-1	-1	-1	-1	-1	-1			37,37,27	0.621622,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:73943832:G:GTTAA	2,1,1	-1	-1	-1	-1	-1	-1			28,31,27	1,0.387097,0.592593				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:73943835:T:C	2,1,1	-1	-1	-1	-1	-1	-1			29,31,27	1,0.387097,0.592593				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:74465416:G:GTGTGTT	2,1,1	-1	-1	-1	-1	-1	-1			28,36,19	1,0.527778,0.631579				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:75617577:G:C	2,1,1	0.000180561	0	14	-1	-1	-1	MYO15B	50_intron	19,28,18	1,0.321429,0.555556	MYO15B/intron/;MYO15B/non_coding/	pLI=0.000491;oe_lof=0.56629		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:75617579:G:GAGACACATACCCGACA	2,1,1	-1	-1	-1	-1	-1	-1	MYO15B	50_intron	19,28,18	1,0.321429,0.555556	MYO15B/intron/;MYO15B/non_coding/	pLI=0.000491;oe_lof=0.56629		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:76539068:C:T	2,1,1	0.0032361	2	493	0.00289645	1	8	PRCD;CYGB	50_intron	14,25,25	1,0.32,0.64	PRCD/non_coding/;CYGB/intron/	pLI=0.016;oe_lof=0.65035;;pLI=0.102;oe_lof=0.33089	Retinitis pigmentosa 36	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:76563098:A:G	2,1,1	0.00317957	1	484	0.0025344	0	7			19,39,30	1,0.358974,0.466667				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:78217955:CTTAT:C	2,1,1	9.95593e-05	0	15	-1	-1	-1	BIRC5	50_intron	18,37,23	1,0.567568,0.521739	BIRC5/intron/;BIRC5/non_coding/	pLI=0.0559;oe_lof=0.40382		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr17:78217961:T:A	2,1,1	0.00129253	0	31	-1	-1	-1	BIRC5	50_intron	18,38,23	1,0.552632,0.521739	BIRC5/intron/;BIRC5/non_coding/	pLI=0.0559;oe_lof=0.40382		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:8345243:A:AAAAGG	2,1,1	-1	-1	-1	-1	-1	-1	PTPRM	50_intron	31,46,20	1,0.434783,0.3	PTPRM/intron/;PTPRM/non_coding/	pLI=1;oe_lof=0.14386		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:13321917:T:G	2,1,1	-1	-1	-1	-1	-1	-1	LDLRAD4	50_intron	28,35,22	1,0.457143,0.363636	LDLRAD4/non_coding/;LDLRAD4/intron/	pLI=0.62;oe_lof=0.17109		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:35542993:A:G	2,1,1	0.00210308	2	320	0.00217234	0	6			47,38,48	1,0.657895,0.479167				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:35543254:G:T	2,1,1	0.00126737	0	193	0.000724113	0	2			48,39,47	1,0.666667,0.489362				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:48386423:GCTTA:G	2,1,1	-1	-1	-1	-1	-1	-1	ZBTB7C	50_intron	36,38,26	1,0.447368,0.538462	ZBTB7C/intron/	pLI=0.161;oe_lof=0.27062		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:48386429:C:G	2,1,1	-1	-1	-1	-1	-1	-1	ZBTB7C	50_intron	34,37,26	1,0.459459,0.538462	ZBTB7C/intron/	pLI=0.161;oe_lof=0.27062		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:48386433:G:A	2,1,1	-1	-1	-1	-1	-1	-1	ZBTB7C	50_intron	36,37,26	1,0.459459,0.538462	ZBTB7C/intron/	pLI=0.161;oe_lof=0.27062		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:50417568:G:A	1,0,0	-1	-1	-1	-1	-1	-1			34,25,30	0.470588,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:53625478:T:TCAGA	2,1,1	-1	-1	-1	-1	-1	-1			36,44,36	1,0.477273,0.472222				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:53625482:A:C	2,1,1	-1	-1	-1	-1	-1	-1			36,45,36	1,0.488889,0.472222				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:60974844:G:A	2,1,1	-1	-1	-1	-1	-1	-1			48,40,43	1,0.65,0.55814				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:60974845:T:A	2,1,1	-1	-1	-1	-1	-1	-1			48,41,43	1,0.658537,0.55814				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:72781871:C:G	2,1,1	-1	-1	-1	-1	-1	-1	NETO1	50_intron	60,51,42	0.983333,0.470588,0.571429	NETO1/intron/	pLI=0.0526;oe_lof=0.27494		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:72781872:G:C	2,1,1	-1	-1	-1	-1	-1	-1	NETO1	50_intron	60,48,43	0.983333,0.5,0.55814	NETO1/intron/	pLI=0.0526;oe_lof=0.27494		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:72781873:G:A	2,1,1	-1	-1	-1	-1	-1	-1	NETO1	50_intron	60,51,43	0.983333,0.470588,0.55814	NETO1/intron/	pLI=0.0526;oe_lof=0.27494		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:73846425:CAG:C	2,1,1	4.27378e-05	0	4	-1	-1	-1			30,37,20	1,0.486486,0.35				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr18:73846429:G:A	2,1,1	1.08963e-05	0	1	-1	-1	-1			30,37,20	1,0.486486,0.35				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr19:14184630:A:T	2,1,1	-1	-1	-1	0.000724113	0	2	ADGRL1	50_intron	22,38,24	1,0.421053,0.416667	ADGRL1/intron/		Developmental delay, behavioral abnormalities, and neuropsychiatric disorders	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr19:24308840:G:GT	1,0,0	-1	-1	-1	-1	-1	-1			33,41,25	0.515152,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr19:31560329:A:G	1,0,0	-1	-1	-1	-1	-1	-1			29,29,30	0.413793,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr19:43584222:T:TGTGACCCAGAA	2,1,1	-1	-1	-1	-1	-1	-1	L34079.1	50_intron	35,33,24	1,0.424242,0.458333	L34079.1/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr19:43584228:A:T	2,1,1	-1	-1	-1	-1	-1	-1	L34079.1	50_intron	35,34,24	1,0.411765,0.458333	L34079.1/intron/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr19:47700790:T:TCAAA	2,1,1	-1	-1	-1	-1	-1	-1	BICRA	50_intron	24,21,17	1,0.47619,0.352941	BICRA/intron/;BICRA/non_coding/		Coffin-Siris syndrome 12	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr19:54532186:T:C	1,0,0	-1	-1	-1	-1	-1	-1			38,37,24	0.526316,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr19:54532194:T:C	1,0,0	-1	-1	-1	-1	-1	-1			38,37,24	0.526316,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr19:54532205:A:G	1,0,0	6.56927e-06	0	1	-1	-1	-1			38,37,24	0.526316,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr19:54532246:C:G	1,0,0	6.56754e-06	0	1	-1	-1	-1			38,37,24	0.526316,0,0				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr19:54532250:C:G	1,0,0	6.5678e-06	0	1	-1	-1	-1			38,37,24	0.526316,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr20:4989627:G:T	2,1,1	-1	-1	-1	-1	-1	-1	SLC23A2	50_intron	33,36,25	1,0.444444,0.64	SLC23A2/intron/;SLC23A2/non_coding/	pLI=0.00626;oe_lof=0.31156		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr20:9421058:TG:T	1,0,0	6.89313e-06	0	1	-1	-1	-1	PLCB4	50_intron	36,43,29	0.611111,0,0	PLCB4/intron/;PLCB4/non_coding/	pLI=3.04e-06;oe_lof=0.32125	Auriculocondylar syndrome 2B;Auriculocondylar syndrome 2	0.000
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr20:29719985:G:T	1,0,0	-1	-1	-1	-1	-1	-1			54,42,54	0.407407,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr20:31183405:G:A	2,1,1	0.000767938	0	53	0.00108617	0	3			35,34,30	1,0.588235,0.5				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr20:31561276:G:C	1,0,0	-1	-1	-1	-1	-1	-1	HM13	50_intron	22,29,23	0.5,0,0	HM13/intron/;HM13/non_coding/	pLI=0.69;oe_lof=0.1876		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr20:32423399:T:TTG	2,1,1	-1	-1	-1	-1	-1	-1	ASXL1	50_intron	27,31,29	1,0.419355,0.551724	ASXL1/intron/;ASXL1/non_coding/	pLI=1.25e-14;oe_lof=0.58868	Myelodysplastic syndrome;Bohring-Opitz syndrome	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr20:32423401:T:G	2,1,1	0.00172119	1	260	0.00108617	0	3	ASXL1	50_intron	28,31,28	1,0.451613,0.607143	ASXL1/intron/;ASXL1/non_coding/	pLI=1.25e-14;oe_lof=0.58868	Myelodysplastic syndrome;Bohring-Opitz syndrome	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr20:54644722:A:C	2,1,1	0.0010845	0	159	0.0170167	0	47	DOK5	50_intron	52,33,23	1,0.575758,0.478261	DOK5/intron/	pLI=0.000226;oe_lof=0.47775		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr20:56334699:C:T	1,0,0	-1	-1	-1	-1	-1	-1			28,33,29	0.678571,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr20:63806424:G:A	2,1,1	-1	-1	-1	-1	-1	-1	ZBTB46	50_intron	20,32,24	1,0.375,0.375	ZBTB46/intron/	pLI=0.809;oe_lof=0.17361		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr21:5316455:C:T	1,0,0	-1	-1	-1	-1	-1	-1			28,75,29	0.25,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr21:14094079:A:T	2,1,1	-1	-1	-1	0.0199131	2	55			31,29,24	1,0.448276,0.625				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr21:21465548:TTATAA:T	2,1,1	0.000167588	0	6	-1	-1	-1	NCAM2	50_intron	41,35,27	1,0.514286,0.481481	NCAM2/intron/;NCAM2/non_coding/	pLI=0.231;oe_lof=0.23572		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr21:21465560:C:T	2,1,1	-1	-1	-1	-1	-1	-1	NCAM2	50_intron	41,35,27	1,0.514286,0.481481	NCAM2/intron/;NCAM2/non_coding/	pLI=0.231;oe_lof=0.23572		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr21:25765376:C:G	1,0,0	-1	-1	-1	-1	-1	-1	GABPA	50_intron	47,39,33	0.446809,0,0	GABPA/intron/	pLI=0.998;oe_lof=0.07369		
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr21:28557653:A:T	1,0,0	-1	-1	-1	-1	-1	-1			32,37,34	0.40625,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr21:28943982:T:TTTAAGATTTAAGAA	2,1,1	-1	-1	-1	-1	-1	-1	LTN1	50_intron	39,44,47	1,0.477273,0.468085	LTN1/intron/	pLI=0.0084;oe_lof=0.25641		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr21:28943983:G:A	2,1,1	-1	-1	-1	-1	-1	-1	LTN1	50_intron	40,44,47	1,0.477273,0.468085	LTN1/intron/	pLI=0.0084;oe_lof=0.25641		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr21:41474381:G:A	2,1,1	-1	-1	-1	-1	-1	-1	TMPRSS2	50_intron	15,13,12	1,0.384615,0.5	TMPRSS2/intron/	pLI=2.4e-10;oe_lof=0.64813		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr21:41552969:A:AACTCT	2,1,1	-1	-1	-1	-1	-1	-1			25,42,23	1,0.52381,0.478261				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr21:41552970:C:T	2,1,1	-1	-1	-1	-1	-1	-1			25,42,24	1,0.52381,0.5				
+dominant	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:12295731:GT:G	1,0,0	-1	-1	-1	-1	-1	-1			86,69,67	0.22093,0,0				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:16382596:A:T	2,1,1	-1	-1	-1	0.00868936	0	24			27,40,26	1,0.4,0.615385				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:16382693:T:C	2,1,1	-1	-1	-1	0.00905141	0	25			25,40,26	1,0.4,0.615385				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:16385169:C:T	2,1,1	-1	-1	-1	0.0173787	1	48			28,36,27	1,0.416667,0.518519				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:23541795:GGGAA:G	2,1,1	-1	-1	-1	0.00434468	0	12			19,33,26	1,0.454545,0.307692				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:23541807:C:A	2,1,1	-1	-1	-1	-1	-1	-1			22,33,29	1,0.454545,0.413793				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:26840947:G:A	2,1,1	1.52707e-05	0	2	0.00615496	0	17			27,33,27	1,0.545455,0.444444				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:30672936:G:GTCCCA	2,1,1	-1	-1	-1	-1	-1	-1	AC003072.2	53_non_coding	24,24,34	1,0.416667,0.5	AC003072.2/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:30672939:T:C	2,1,1	-1	-1	-1	-1	-1	-1	AC003072.2	53_non_coding	25,24,34	1,0.416667,0.5	AC003072.2/non_coding/			
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:33539732:A:AGGCATGTGCCAC	2,1,1	-1	-1	-1	-1	-1	-1	LARGE1	50_intron	18,23,34	1,0.434783,0.558824	LARGE1/intron/;LARGE1/non_coding/		Muscular dystrophy-dystroglycanopathy type B6;Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6;Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A1	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:33539734:C:A	2,1,1	-1	-1	-1	-1	-1	-1	LARGE1	50_intron	18,23,34	1,0.434783,0.558824	LARGE1/intron/;LARGE1/non_coding/		Muscular dystrophy-dystroglycanopathy type B6;Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6;Muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A1	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:42282899:A:AGCG	2,1,1	-1	-1	-1	-1	-1	-1	TCF20	50_intron	31,28,26	1,0.392857,0.615385	TCF20/intron/	pLI=1;oe_lof=0.030129	Developmental delay with variable intellectual impairment and behavioral abnormalities	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:42282902:C:T	2,1,1	-1	-1	-1	-1	-1	-1	TCF20	50_intron	32,28,26	1,0.392857,0.615385	TCF20/intron/	pLI=1;oe_lof=0.030129	Developmental delay with variable intellectual impairment and behavioral abnormalities	0.000
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:43836514:C:T	2,1,1	-1	-1	-1	0.00543085	1	15	SULT4A1	50_intron	21,29,22	1,0.689655,0.409091	SULT4A1/intron/;SULT4A1/non_coding/	pLI=0.966;oe_lof=0.067205		
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:46683563:T:C	2,1,1	-1	-1	-1	-1	-1	-1			24,33,19	1,0.454545,0.473684				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:49224471:C:CGATGGATGGATG	2,1,1	-1	-1	-1	-1	-1	-1			23,45,8	1,0.466667,0.75				
+recessive	SecondTrio	S005_X32-24_WGS-Rv-0150	chr22:50067971:C:A	2,1,1	-1	-1	-1	-1	-1	-1	MLC1	50_intron	20,24,8	1,0.541667,0.5	MLC1/intron/;MLC1/non_coding/	pLI=3.24e-08;oe_lof=0.74354	Megalencephalic leukoencephalopathy with subcortical cysts;Megalencephalic leukoencephalopathy with subcortical cysts 1	0.000
