@@ -1,0 +1,21 @@
+# =============================================================================
+# Test Coverage Plot Configuration — Singleton Sample
+# =============================================================================
+# Usage:
+#   snakemake --configfile config/test_singleton_plot_config.yaml --cores 1
+# =============================================================================
+
+samples:
+  - id: "Sample"
+    path: "test_files/singleton/TEST_Sample.mosdepth.summary.txt"
+
+# Output
+out_dir: "output/plots/r_plots"
+plot_name: "test_singleton_coverage_plot.html"
+
+# Analyses to run
+mosdepth_statistics: true
+length_vs_quality: true
+aligned_bases: true
+snvs_stats: true
+sv_stats: true

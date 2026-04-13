@@ -1,0 +1,30 @@
+# =============================================================================
+# Coverage Plot Configuration
+# =============================================================================
+# Usage:
+#   snakemake -s workflow/plot_analysis.smk --configfile config/plot_config.yaml --cores 1
+#   With container: snakemake -s workflow/plot_analysis.smk --configfile config/plot_config.yaml --use-singularity --cores 1
+#
+# samples:
+#   id:   display label used in plots
+#   path: full path to the mosdepth summary .txt file for this sample
+# =============================================================================
+
+samples:
+  - id: "Patient"
+    path: "/path/to/Patient.GRCh38.mosdepth.summary.txt"
+  - id: "Mother"
+    path: "/path/to/Mother.GRCh38.mosdepth.summary.txt"
+  - id: "Father"
+    path: "/path/to/Father.GRCh38.mosdepth.summary.txt"
+
+# Output
+out_dir: "output/plots/r_plots"
+plot_name: "coverage_plot.html"
+
+# Analyses to run
+mosdepth_statistics: true
+length_vs_quality: true
+aligned_bases: true
+snvs_stats: true
+sv_stats: true

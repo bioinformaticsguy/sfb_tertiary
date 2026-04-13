@@ -1,24 +1,20 @@
-## How to run: snakemake -s workflow/plot_analysis.smk --use-conda --cores 1
-## With DOcker: snakemake -s workflow/plot_analysis.smk --use-singularity --cores 1
+## Included by the main Snakefile — do not run directly.
+## To trigger this rule, pass a configfile:
+##   snakemake --configfile config/plot_config.yaml --cores 1
 
-rule all:
-    input:
-        "output/plots/r_plots/sixth_trio.png"
+import os
 
 rule plot_coverage:
-    input:
-        yaml_config="src/data_to_plot.yaml",
     output:
-        "output/plots/r_plots/sixth_trio.png"
+        os.path.join(config["out_dir"], config["plot_name"])
+    params:
+        config_file=workflow.configfiles[0]
     conda:
         "envs/r_environment.yaml"
     container:
         "docker://bioinformaticsguy/r-plotting:latest"
     shell:
         """
-        mkdir -p output/plots/r_plots
-        Rscript src/plot_coverage_per_chr.R src/data_to_plot.yaml
+        mkdir -p {config[out_dir]}
+        Rscript src/plot_coverage_per_chr.R {params.config_file}
         """
-
-
-# Rscript plot_coverage_per_chr.R data_to_plot.yaml

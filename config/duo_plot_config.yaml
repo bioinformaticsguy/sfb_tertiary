@@ -1,0 +1,23 @@
+# =============================================================================
+# Coverage Plot Configuration — Duo (two samples)
+# =============================================================================
+# Usage:
+#   snakemake --configfile config/duo_plot_config.yaml --use-conda --cores 4
+# =============================================================================
+
+samples:
+  - id: "Patient"
+    path: "/path/to/Patient.GRCh38.mosdepth.summary.txt"
+  - id: "Parent"
+    path: "/path/to/Parent.GRCh38.mosdepth.summary.txt"
+
+# Output
+out_dir: "output/plots/r_plots"
+plot_name: "duo_coverage_plot.html"
+
+# Analyses to run
+mosdepth_statistics: true
+length_vs_quality: true
+aligned_bases: true
+snvs_stats: true
+sv_stats: true

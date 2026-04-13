@@ -1,9 +1,17 @@
-## How to run: snakemake --use-conda --cores 1
+## Usage:
+##   snakemake --cores 1
+##   With plot: snakemake --configfile config/plot_config.yaml --cores 1
+##   Test plot: snakemake --configfile config/test_plot_config.yaml --cores 1
+
+import os
+
+include: "workflow/plot_analysis.smk"
 
 rule all:
     input:
         "output/filtered_genes/filtered_variants.csv",
-        "quarto_rep/report_gen.html"
+        "quarto_rep/report_gen.html",
+        *([os.path.join(config["out_dir"], config["plot_name"])] if "out_dir" in config else [])
 
 rule generate_genes_with_source:
     input:
@@ -41,12 +49,9 @@ rule render_report:
         pwd
         cd quarto_rep
         echo "Rendering report..."
-        # Ensure quarto is installed and available in the environment
         if ! command -v quarto &> /dev/null; then
             echo "Quarto is not installed. Please install it in the conda environment."
             exit 1
         fi
-        # Render the report using quarto
-        echo "Rendering report from {input.qmd} to {output.html}..."
         quarto render report_gen.qmd --to html
         """

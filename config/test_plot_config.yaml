@@ -1,0 +1,26 @@
+# =============================================================================
+# Test Coverage Plot Configuration
+# =============================================================================
+# Uses the bundled test data files for local validation without real data.
+# Usage:
+#   snakemake -s workflow/plot_analysis.smk --configfile config/test_plot_config.yaml --cores 1
+# =============================================================================
+
+samples:
+  - id: "Patient"
+    path: "test_files/trio/TEST_Patient.GRCh38.mosdepth.summary.txt"
+  - id: "Mother"
+    path: "test_files/trio/TEST_Mother.GRCh38.mosdepth.summary.txt"
+  - id: "Father"
+    path: "test_files/trio/TEST_Father.GRCh38.mosdepth.summary.txt"
+
+# Output
+out_dir: "output/plots/r_plots"
+plot_name: "test_coverage_plot.html"
+
+# Analyses to run
+mosdepth_statistics: true
+length_vs_quality: true
+aligned_bases: true
+snvs_stats: true
+sv_stats: true

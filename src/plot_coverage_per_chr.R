@@ -1,90 +1,84 @@
-# Usage: Rscript plot_coverage_per_chromosome.R. Needs to have an associated data_to_plot.yaml file with parameters
+# Usage: Rscript plot_coverage_per_chr.R <config.yaml>
 
-# load libraries
 suppressPackageStartupMessages(library(dplyr))
-suppressPackageStartupMessages(library(ggplot2))
-suppressPackageStartupMessages(library(docopt))
+suppressPackageStartupMessages(library(plotly))
+suppressPackageStartupMessages(library(htmlwidgets))
 suppressPackageStartupMessages(library(yaml))
-suppressPackageStartupMessages(library(forcats))
-suppressPackageStartupMessages(library(ggrepel))
-suppressPackageStartupMessages(library(cowplot))
 
-
-# Ensure the script correctly captures command-line arguments
-args <- commandArgs(trailingOnly = TRUE)  # Get arguments properly
-
-# Check if an argument (YAML file) is provided
+# --- Read config
+args <- commandArgs(trailingOnly = TRUE)
 if (length(args) == 0) {
-  stop("Error: No YAML file provided. Usage: Rscript plot_coverage_per_chr.R data_to_plot.yaml")
+  stop("No YAML config provided. Usage: Rscript plot_coverage_per_chr.R config.yaml")
 }
-
-# --- Read in the parameters from the yaml file
-yaml_file <- ifelse(length(args) > 0, args[1], "data_to_plot.yaml")  # Use argument if provided, else default
-params <- read_yaml(yaml_file)
-#print(glimpse(params)) # Print all the requested parameters
-list2env(x = params, envir = environment()) # make all the list elements into variables in the current env
+params <- read_yaml(args[1])
+list2env(x = params, envir = environment())
 rm(params)
 
-# Function to read in the mosdpeth summary file
+# --- Load data
 read_mosdepth_summary <- function(sample_list_with_id_path) {
     list2env(x = sample_list_with_id_path, envir = environment())
-    file_mosdepth <- list.files(pattern = paste0(id, ".*", ".mosdepth.summary.txt$"),
-        path = paste0(path, "/mosdepth"))
-        print(path)
-    file_mosdepth <- paste0(path, file_mosdepth)
-    print(file_mosdepth)
-    mosdepth_df <- read.table(file_mosdepth, sep = "\t", header = TRUE) %>%
+    read.table(path, sep = "\t", header = TRUE) %>%
         filter(!grepl(chrom, pattern = "_")) %>%
         filter(!(chrom %in% c("chrM", "chrEBV", "total"))) %>%
         mutate(sample = id)
 }
 
-# Get mosdepth summaries across all samples
 mosdepth_summary <- lapply(samples, FUN = read_mosdepth_summary) %>%
     do.call(args = ., what = rbind)
 
-## Create plots
-plots <- list()
-
+# --- Plot 1: Total aligned bases per sample
 total_aligned_summary <- mosdepth_summary %>%
     group_by(sample) %>%
-    summarise(total_aligned_bases = sum(bases))
-plots$total_aligned_bases <- ggplot(total_aligned_summary, 
-        aes(x = fct_reorder(sample, desc(total_aligned_bases)),
-            y = total_aligned_bases/1E9, 
-            fill = total_aligned_bases/1E9)) +
-    geom_col() + 
-    theme_classic() +
-    ylab("Total number of aligned bases (Gb)") +
-    xlab("Samples") +
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1), legend.position = "none") +
-    ggtitle("Number of aligned bases per sample (Chr1-22,X,Y)")
+    summarise(total_aligned_bases = sum(bases)) %>%
+    arrange(desc(total_aligned_bases))
 
+p_aligned <- plot_ly(
+        total_aligned_summary,
+        x = ~reorder(sample, -total_aligned_bases),
+        y = ~round(total_aligned_bases / 1e9, 2),
+        type = "bar",
+        hovertemplate = "<b>%{x}</b><br>%{y:.2f} Gb<extra></extra>",
+        marker = list(color = ~total_aligned_bases / 1e9,
+                      colorscale = "Blues", showscale = FALSE)) %>%
+    layout(
+        title = "Total aligned bases per sample (Chr1-22, X, Y)",
+        xaxis = list(title = "Sample", tickangle = -45),
+        yaxis = list(title = "Aligned bases (Gb)"),
+        showlegend = FALSE)
+
+# --- Plot 2: Coverage per chromosome per sample
 mosdepth_summary <- mosdepth_summary %>%
     group_by(sample) %>%
-    mutate(outlier = (mean < median(mean) - (sd(mean) * 2)) | (mean > median(mean) + (sd(mean) * 1.3))) %>%
-    mutate(label = case_when(outlier ~ chrom)) %>%
     mutate(median_coverage = median(mean))
-plots$coverage_per_sample <- ggplot(mosdepth_summary,
-        aes(x = fct_reorder(.f = sample, .x = mean, .fun = sum, .desc = TRUE),
-            y = mean,
-            label = label,
-            fill = mean)) +
-    geom_boxplot(aes(fill = median_coverage)) +
-    scale_fill_continuous(limits = c(10, 25)) +
-    geom_text_repel(direction = "y") +
-    theme_classic() +
-    ylab("Mean coverage (X)") +
-    xlab("Samples") +
-    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1), legend.position = "none") +
-    ggtitle("Coverage per sample across chromosomes")
+
+p_coverage <- plot_ly(
+        mosdepth_summary,
+        x = ~reorder(sample, -median_coverage),
+        y = ~mean,
+        color = ~sample,
+        type = "box",
+        text = ~chrom,
+        hovertemplate = "<b>%{text}</b><br>Coverage: %{y:.1f}x<extra></extra>",
+        boxpoints = "outliers",
+        pointpos = 0) %>%
+    layout(
+        title = "Coverage per chromosome per sample",
+        xaxis = list(title = "Sample", tickangle = -45),
+        yaxis = list(title = "Mean coverage (X)"),
+        showlegend = FALSE)
+
+# --- Combine and save as self-contained HTML
+combined <- subplot(p_aligned, p_coverage,
+                    nrows = 1, shareX = FALSE,
+                    titleX = TRUE, titleY = TRUE,
+                    margin = 0.06) %>%
+    layout(title = list(text = "Coverage Summary", x = 0.5))
 
 if (!exists("plot_name")) {
-  plot_name <- "coverage_plot.png"
+    plot_name <- "coverage_plot.html"
 }
 
-filename <- file.path(out_dir, plot_name)
-
-
-dir.create(path = out_dir)
-ggsave(plot = plot_grid(plotlist = plots, ncol = 2), filename = filename, width = 10, height = 5)
+filename <- normalizePath(file.path(out_dir, plot_name), mustWork = FALSE)
+dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
+saveWidget(combined, file = filename, selfcontained = TRUE)
+cat("Plot saved to:", filename, "\n")
