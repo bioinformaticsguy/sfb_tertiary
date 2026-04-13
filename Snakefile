@@ -9,9 +9,10 @@ include: "workflow/plot_analysis.smk"
 
 rule all:
     input:
-        "output/filtered_genes/filtered_variants.csv",
-        "quarto_rep/report_gen.html",
-        *([os.path.join(config["out_dir"], config["plot_name"])] if "out_dir" in config else [])
+        *([os.path.join(config["out_dir"], config["plot_name"])] if "out_dir" in config else [
+            "output/filtered_genes/filtered_variants.csv",
+            "quarto_rep/report_gen.html"
+        ])
 
 rule generate_genes_with_source:
     input:
