@@ -1,0 +1,16 @@
+name: qc_report
+channels:
+  - conda-forge
+  - bioconda
+  - r
+dependencies:
+  - quarto
+  - r-base=4.3
+  - r-knitr
+  - r-rmarkdown
+  - r-dplyr
+  - r-plotly
+  - r-htmlwidgets
+  - r-yaml
+  - r-dt
+  - r-kableextra

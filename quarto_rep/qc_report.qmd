@@ -1,0 +1,269 @@
+---
+title: "Sequencing Coverage QC Report"
+subtitle: "Whole Genome Sequencing — Mosdepth Summary"
+date: today
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+    toc-title: "Contents"
+    theme: cosmo
+    smooth-scroll: true
+    code-fold: true
+    code-summary: "Show code"
+    fig-width: 10
+    fig-height: 5
+params:
+  config_file: "config/test_plot_config.yaml"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+library(dplyr)
+library(plotly)
+library(yaml)
+library(DT)
+library(kableExtra)
+
+# --- Load config and data
+config_data <- read_yaml(params$config_file)
+samples_cfg  <- config_data$samples
+
+read_mosdepth_summary <- function(s) {
+    read.table(s$path, sep = "\t", header = TRUE) %>%
+        filter(!grepl(chrom, pattern = "_")) %>%
+        filter(!(chrom %in% c("chrM", "chrEBV", "total"))) %>%
+        mutate(sample = s$id)
+}
+
+mosdepth <- lapply(samples_cfg, read_mosdepth_summary) %>% bind_rows()
+
+chrom_order <- c(paste0("chr", 1:22), "chrX", "chrY")
+mosdepth <- mosdepth %>%
+    filter(chrom %in% chrom_order) %>%
+    mutate(chrom = factor(chrom, levels = chrom_order))
+
+# --- Compute per-sample summary metrics
+summary_metrics <- mosdepth %>%
+    group_by(sample) %>%
+    summarise(
+        total_bases_gb    = round(sum(bases) / 1e9, 2),
+        median_coverage   = round(median(mean[!chrom %in% c("chrX", "chrY")]), 1),
+        chrX_coverage     = round(mean[chrom == "chrX"], 1),
+        chrY_coverage     = round(mean[chrom == "chrY"], 1),
+        .groups = "drop"
+    ) %>%
+    mutate(
+        sex_ratio    = chrX_coverage / median_coverage,
+        inferred_sex = if_else(sex_ratio >= 0.7, "Female (XX)", "Male (XY)")
+    ) %>%
+    select(-sex_ratio)
+```
+
+---
+
+## Overview
+
+This report summarises the sequencing coverage quality control (QC) for the samples listed below.
+It is generated automatically from [mosdepth](https://github.com/brentp/mosdepth) summary files
+and is intended to give a quick overview of data quality before downstream analysis.
+
+**What to look for:**
+
+- **Total aligned bases** should be consistent across samples in the same run (~90–120 Gb for 30× WGS).
+- **Coverage distribution** across autosomes (chr1–22) should be uniform. Chromosomes that fall far
+  outside the box are worth investigating.
+- **Sex chromosome coverage** immediately indicates biological sex and can reveal sample mix-ups:
+  - *Female (XX)*: chrX ≈ autosomal coverage, chrY ≈ 0×
+  - *Male (XY)*: chrX ≈ 0.5× autosomal coverage, chrY ≈ 0.5× autosomal coverage
+
+---
+
+## Sample Information
+
+```{r sample-table}
+data.frame(
+    `Sample ID` = sapply(samples_cfg, `[[`, "id"),
+    `Mosdepth file` = sapply(samples_cfg, `[[`, "path"),
+    `File exists` = sapply(sapply(samples_cfg, `[[`, "path"), file.exists),
+    check.names = FALSE
+) %>%
+kbl(align = c("l", "l", "c")) %>%
+kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+              full_width = TRUE) %>%
+column_spec(3, color = if_else(
+    sapply(sapply(samples_cfg, `[[`, "path"), file.exists), "green", "red"))
+```
+
+---
+
+## QC Plots
+
+### Total Aligned Bases
+
+The bar chart shows the total number of bases that successfully aligned to the reference genome
+(GRCh38) across chromosomes 1–22, X, and Y. This is a proxy for the amount of usable sequencing
+data per sample.
+
+> **Expected range for 30× WGS:** ~90–120 Gb per sample.
+> Large differences between samples may indicate unequal sequencing depth or failed libraries.
+
+```{r plot-aligned}
+total_aligned <- mosdepth %>%
+    group_by(sample) %>%
+    summarise(total_bases_gb = sum(bases) / 1e9, .groups = "drop") %>%
+    arrange(desc(total_bases_gb))
+
+plot_ly(
+    total_aligned,
+    x = ~reorder(sample, -total_bases_gb),
+    y = ~round(total_bases_gb, 2),
+    type = "bar",
+    hovertemplate = "<b>%{x}</b><br>%{y:.2f} Gb<extra></extra>",
+    marker = list(color = ~total_bases_gb, colorscale = "Blues", showscale = FALSE)
+) %>%
+layout(
+    xaxis = list(title = "Sample", tickangle = -45),
+    yaxis = list(title = "Aligned bases (Gb)"),
+    showlegend = FALSE
+)
+```
+
+---
+
+### Coverage Distribution
+
+The boxplot shows the distribution of mean per-chromosome coverage across all autosomes (chr1–22).
+Each point in the box represents one chromosome. Red diamonds mark the chrX and chrY coverage
+values, which are plotted separately because they carry additional biological information (see
+[Per-Chromosome Coverage](#per-chromosome-coverage) below).
+
+> **What to look for:**
+>
+> - Boxes at consistent heights across samples indicate uniform sequencing depth.
+> - Outlier chromosomes labelled inside the box may indicate repeat-rich or hard-to-sequence regions.
+> - chrX below the box in one sample but inside the box in another may indicate a sex discordance.
+
+```{r plot-boxplot}
+mosdepth_auto <- mosdepth %>%
+    group_by(sample) %>%
+    mutate(median_coverage = median(mean[!chrom %in% c("chrX", "chrY")]))
+
+sex_chrs <- mosdepth_auto %>% filter(chrom %in% c("chrX", "chrY"))
+
+plot_ly(
+    mosdepth_auto,
+    x = ~reorder(sample, -median_coverage),
+    y = ~mean,
+    color = ~sample,
+    type = "box",
+    text = ~as.character(chrom),
+    hovertemplate = "<b>%{text}</b><br>Coverage: %{y:.1f}×<extra></extra>",
+    boxpoints = "outliers",
+    pointpos = 0,
+    showlegend = FALSE
+) %>%
+add_trace(
+    data = sex_chrs,
+    x = ~sample,
+    y = ~mean,
+    type = "scatter",
+    mode = "markers+text",
+    text = ~as.character(chrom),
+    textposition = "top right",
+    marker = list(size = 11, symbol = "diamond", color = "crimson"),
+    name = "sex chromosomes",
+    hovertemplate = "<b>%{text}</b><br>Coverage: %{y:.1f}×<extra></extra>",
+    showlegend = TRUE,
+    inherit = FALSE
+) %>%
+layout(
+    xaxis = list(title = "Sample", tickangle = -45),
+    yaxis = list(title = "Mean coverage (×)"),
+    legend = list(orientation = "h", y = -0.25)
+)
+```
+
+---
+
+### Per-Chromosome Coverage {#per-chromosome-coverage}
+
+This plot shows the mean coverage for every chromosome individually. The blue-shaded region
+highlights the sex chromosomes (chrX and chrY). Viewing each sample as a line makes it easy to
+spot chromosomes with systematically different coverage — for example a deletion (lower coverage)
+or a trisomy (higher coverage).
+
+> **Sex chromosome interpretation:**
+>
+> | Pattern | chrX | chrY | Inferred sex |
+> |---------|------|------|-------------|
+> | Female | ≈ autosomal | ~0× | XX |
+> | Male | ≈ 0.5× autosomal | ≈ 0.5× autosomal | XY |
+
+```{r plot-per-chr}
+p <- plot_ly()
+for (s in unique(mosdepth$sample)) {
+    d <- filter(mosdepth, sample == s)
+    p <- add_trace(p,
+        x = ~chrom, y = ~mean, data = d,
+        name = s,
+        type = "scatter", mode = "lines+markers",
+        marker = list(size = 7),
+        hovertemplate = paste0("<b>%{x}</b><br>Coverage: %{y:.1f}×<extra>", s, "</extra>"))
+}
+
+layout(p,
+    xaxis = list(title = "Chromosome", tickangle = -45),
+    yaxis = list(title = "Mean coverage (×)"),
+    showlegend = TRUE,
+    shapes = list(
+        list(type = "rect", xref = "x", yref = "paper",
+             x0 = 21.5, x1 = 23.5, y0 = 0, y1 = 1,
+             fillcolor = "rgba(135, 206, 250, 0.20)",
+             line = list(width = 0))),
+    annotations = list(
+        list(x = 22.5, xref = "x", y = 1, yref = "paper",
+             text = "sex chromosomes", showarrow = FALSE,
+             yanchor = "bottom",
+             font = list(size = 11, color = "steelblue")))
+)
+```
+
+---
+
+## Summary Metrics
+
+Key QC metrics for each sample. Inferred sex is determined from the ratio of chrX coverage to
+median autosomal coverage (ratio ≥ 0.7 → Female).
+
+```{r summary-table}
+summary_metrics %>%
+    rename(
+        `Sample`                  = sample,
+        `Total bases (Gb)`        = total_bases_gb,
+        `Median autosomal cov (×)` = median_coverage,
+        `chrX cov (×)`            = chrX_coverage,
+        `chrY cov (×)`            = chrY_coverage,
+        `Inferred sex`            = inferred_sex
+    ) %>%
+datatable(
+    rownames = FALSE,
+    options  = list(pageLength = 25, dom = "t"),
+    class    = "stripe hover compact"
+) %>%
+formatStyle(
+    "Inferred sex",
+    backgroundColor = styleEqual(
+        c("Female (XX)", "Male (XY)"),
+        c("#fce4ec", "#e3f2fd")
+    )
+)
+```
+
+---
+
+*Report generated with [mosdepth](https://github.com/brentp/mosdepth) +
+[Snakemake](https://snakemake.readthedocs.io) +
+[Quarto](https://quarto.org).*

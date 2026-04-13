@@ -15,6 +15,7 @@ def _plot_files(cfg):
         "boxplot":  base + "_boxplot.html",
         "per_chr":  base + "_per_chr.html",
         "static":   base + ".png",
+        "report":   base + "_qc_report.html",
     }
 
 rule plot_coverage:
@@ -47,4 +48,22 @@ rule plot_coverage_static:
         """
         mkdir -p {config[out_dir]}
         Rscript src/plot_coverage_static.R {params.config_file}
+        """
+
+rule render_qc_report:
+    output:
+        report = _plot_files(config)["report"],
+    params:
+        config_file = os.path.abspath(workflow.configfiles[0]),
+        out_dir     = os.path.abspath(config.get("out_dir", "output/plots/r_plots")),
+        report_name = os.path.basename(_plot_files(config)["report"]),
+    conda:
+        "envs/qc_report.yaml"
+    shell:
+        """
+        mkdir -p {params.out_dir}
+        quarto render quarto_rep/qc_report.qmd \
+            -P config_file:{params.config_file} \
+            --output {params.report_name} \
+            --output-dir {params.out_dir}
         """
