@@ -9,7 +9,7 @@ include: "workflow/plot_analysis.smk"
 
 rule all:
     input:
-        *(list(_plot_files(config).values()) if "out_dir" in config else [
+        *(list(_plot_files(config).values()) if "out_dir" in config else [  # aligned, boxplot, per_chr htmls + static png
             "output/filtered_genes/filtered_variants.csv",
             "quarto_rep/report_gen.html"
         ])
