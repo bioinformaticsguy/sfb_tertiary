@@ -64,6 +64,9 @@ mosdepth_summary <- mosdepth_summary %>%
     group_by(sample) %>%
     mutate(median_coverage = median(mean))
 
+sex_chr_data <- mosdepth_summary %>%
+    filter(chrom %in% c("chrX", "chrY"))
+
 p_boxplot <- plot_ly(
         mosdepth_summary,
         x = ~reorder(sample, -median_coverage),
@@ -73,12 +76,26 @@ p_boxplot <- plot_ly(
         text = ~chrom,
         hovertemplate = "<b>%{text}</b><br>Coverage: %{y:.1f}x<extra></extra>",
         boxpoints = "outliers",
-        pointpos = 0) %>%
+        pointpos = 0,
+        showlegend = FALSE) %>%
+    add_trace(
+        data = sex_chr_data,
+        x = ~sample,
+        y = ~mean,
+        type = "scatter",
+        mode = "markers+text",
+        text = ~chrom,
+        textposition = "top right",
+        marker = list(size = 11, symbol = "diamond", color = "crimson"),
+        name = "sex chromosomes",
+        hovertemplate = "<b>%{text}</b><br>Coverage: %{y:.1f}x<extra></extra>",
+        showlegend = TRUE,
+        inherit = FALSE) %>%
     layout(
         title = "Coverage distribution per sample (Chr1-22, X, Y)",
         xaxis = list(title = "Sample", tickangle = -45),
         yaxis = list(title = "Mean coverage (X)"),
-        showlegend = FALSE)
+        legend = list(orientation = "h", y = -0.2))
 
 save_plot(p_boxplot, "_boxplot.html")
 
