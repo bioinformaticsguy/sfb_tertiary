@@ -9,7 +9,7 @@ include: "workflow/plot_analysis.smk"
 
 rule all:
     input:
-        *([os.path.join(config["out_dir"], config["plot_name"])] if "out_dir" in config else [
+        *(list(_plot_files(config).values()) if "out_dir" in config else [
             "output/filtered_genes/filtered_variants.csv",
             "quarto_rep/report_gen.html"
         ])
